@@ -1,0 +1,1214 @@
+,input,Startup,Active,Hit Adv,Block Adv,Cancel,Character
+0,5LP,5,2,+4,-1,Sp SA TC,A.K.I.
+1,5MP,6,5,+3,-3,Sp SA,A.K.I.
+2,5HP,12,3,+1,-5,TC,A.K.I.
+3,5LK,5,3,+4,-2,Sp SA,A.K.I.
+4,5MK,9,3,+6,-2,-,A.K.I.
+5,5HK,9,4,+4,-3,Sp SA,A.K.I.
+6,2LP,4,2,+4,-1,Chn Sp SA,A.K.I.
+7,2MP,8,3,+1,-3,Sp SA,A.K.I.
+8,2HP,10,3,HKD +27,-8,-,A.K.I.
+9,2LK,5,3,+3,-2,Chn,A.K.I.
+10,2MK,7,3,+4,-3,SA,A.K.I.
+11,2HK,10,5,0,-3,SA,A.K.I.
+12,j.LP,5,9,-,-,-,A.K.I.
+13,j.MP,7,4,-,-,-,A.K.I.
+14,j.HP,11,6,-,-,-,A.K.I.
+15,j.LK,5,6,-,-,-,A.K.I.
+16,j.MK,7,6,-,-,-,A.K.I.
+17,j.HK,8,5,-,-,-,A.K.I.
+18,3MP,24,3,+3,-2,-,A.K.I.
+19,6HP,16,3,+3,-4,SA,A.K.I.
+20,6HK,14,3(5)3,+4,+2,-,A.K.I.
+21,j.2HP,9,5,-,-,-,A.K.I.
+22,5LP~LP,8,2,0,-3,Sp SA,A.K.I.
+23,5HP~HP,14,3,KD +34[+54],-15,-,A.K.I.
+25,214LP,17,-,-5,-10,SA3,A.K.I.
+26,214PP,16,-,KD +45,+1,SA2 SA3,A.K.I.
+27,214LP~6P,13,2,-4 [KD +38],-16(-11),SA3,A.K.I.
+28,214LP~6P,14,6,KD +42,-4,-,A.K.I.
+29,214PP~6P,13,5,-4 [KD +31~44],-13(-10),SA2 SA3,A.K.I.
+30,214PP~6P,14,12,KD +43(+52~57),-2(+4),SA2 SA3,A.K.I.
+31,214MP,26,[160],-,-,-,A.K.I.
+32,214HP,13,3(14)7,KD +40,-4,SA3,A.K.I.
+33,236LP,14,3,+1(+3) [KD +44(46)],-8(-6),SA3,A.K.I.
+34,236MP,17,6,KD +44 [Crumple +69],-12,SA3,A.K.I.
+35,236HP,11,6,KD +44 [KD +53],-20,SA3,A.K.I.
+36,236PP,21,5,+4 [Crumple +71],-14(-11),[TB: SA2 SA3],A.K.I.
+37,214LK,24,2(5)2(4)2(5)2,+1 (KD +38~45),-3,-,A.K.I.
+38,214MK,28,2(5)2(4)2(5)2,+3 (KD +38~45),-3,-,A.K.I.
+39,214HK,33,2(5)2(4)2(5)2,+4 (KD +41~50),-3,-,A.K.I.
+40,214KK,28,3(4)2(4)2(5)2,HKD +42 (+2~3),+2,-,A.K.I.
+41,236LK,37 total,-,-,-,-,A.K.I.
+42,236MK,39 total,-,-,-,-,A.K.I.
+43,236HK,43(50~54) total,-,-,-,-,A.K.I.
+44,236KK,42(48~57),-,-,-,-,A.K.I.
+45,2PP,11(28),[185],-,-,-,A.K.I.
+46,2PP~8,-,-,-,-,-,A.K.I.
+47,2PP~P,11+19,15,KD +20(34) [Crumple +67(81)],-25(-11),-,A.K.I.
+48,2PP~K,11+11,3(9)3,+4,-3,SA3 (2nd),A.K.I.
+49,2PP~LPLK,11+23,3,HKD +16,-,-,A.K.I.
+51,5LP,5,3,+3,-3,Sp SA,Blanka
+52,5MP,10,3,+3,-4,SA,Blanka
+53,5HP,10,7,+3,-3,Sp SA,Blanka
+54,5LK,4,4,+5,-2,Chn Sp SA,Blanka
+55,5MK,8,3,+4,-2,Sp SA,Blanka
+56,5HK,7,9,+6,-4,-,Blanka
+57,2LP,6,3,+4,-2,Chn Sp SA,Blanka
+58,2MP,9,5,-1,-5,Sp SA,Blanka
+59,2HP,15,5,0,-5,-,Blanka
+60,2LK,5,2,+3,-3,Chn,Blanka
+61,2MK,8,3,+5,-5,Sp SA,Blanka
+62,2HK,11,4,HKD +25,-12,-,Blanka
+63,j.LP,4,5,-,-,-,Blanka
+64,j.MP,7,7,-,-,Sp,Blanka
+65,j.HP,9,4,-,-,-,Blanka
+66,8HP,7,3,-,-,-,Blanka
+67,j.LK,5,6,-,-,-,Blanka
+68,j.MK,7,6,-,-,-,Blanka
+69,j.HK,11,6,-,-,-,Blanka
+70,6MP,20,21,+3,-2,-,Blanka
+71,6MK,9,3(7)2,+6,-2,-,Blanka
+72,4MK,9,6,+8,+2,Sp SA,Blanka
+73,6HP,18,4,KD +18(+21),-15(-12),2PP*,Blanka
+74,3HP,14,10,KD +29(+38),-18(-9),-,Blanka
+76,2PP,18,[1~102],-,-,-,Blanka
+77,2PP~P,18+8,7,KD +55,-21,-,Blanka
+78,2PP~K,18~,-,-,-,-,Blanka
+79,6KKK,27(30) total,-,-,-,-,Blanka
+80,4KKK,32(35) total,-,-,-,-,Blanka
+81,214P,10,2(3)2(3)2~,KD +39,-3,SA3,Blanka
+82,214PP,10,2(3)2(3)2~,KD +40,+4,SA2 SA3,Blanka
+83,[4]6LP,10,11,KD +13,-23,SA3,Blanka
+84,[4]6LP,10,12,KD +13,-21,Sp*,Blanka
+85,[4]6MP,12,19,KD +14,-23,SA3,Blanka
+86,[4]6MP,12,19,KD +14,-21,Sp*,Blanka
+87,[4]6HP,22,20,KD +19,-15,SA3,Blanka
+88,[4]6HP,20,22,KD +19,-21,Sp*,Blanka
+89,[4]6PP,18,22,KD +57,-7,SA2 SA3,Blanka
+90,[4]6PP,18,22,KD +57,-7,Sp*,Blanka
+91,j.[4]6P,13,until land,KD +38(+45),-9(-2),-,Blanka
+92,j.[4]6P,13,until land,KD +38(+45),-9(-2),Sp*,Blanka
+93,j.[4]6PP,13,until land,KD +29(+30),+2(+8),-,Blanka
+94,j.[4]6PP,13,until land,KD +29(+30),+2(+8),Sp*,Blanka
+95,[2]8LK,8,19,KD +35,-27,-,Blanka
+96,[2]8LK,8,19,KD +35,-18,Sp*,Blanka
+97,[2]8MK,8,19,KD +42,-27,-,Blanka
+98,[2]8MK,8,19,KD +37,-19,Sp*,Blanka
+99,[2]8HK,8,19,KD +42,-27,-,Blanka
+100,[2]8HK,8,19,KD +42,-19,Sp*,Blanka
+101,[2]8KK,7,8(2)6,KD +28,-40,-,Blanka
+102,[2]8KK,7,8(2)6,KD +27,-40,Sp* (oH),Blanka
+103,63214LK,41,24,+8(+14),+2(+8),-,Blanka
+104,63214LK,41,24,+8(+14),+2(+8),Sp*,Blanka
+105,63214MK,41,27,+7(+14),+1(+8),-,Blanka
+106,63214MK,41,27,+7(+14),+1(+8),Sp*,Blanka
+107,63214HK,41,29,+7(+13),+3(+9),-,Blanka
+108,63214HK,41,29,+7(+13),+3(+9),Sp*,Blanka
+109,63214KK,8(41),5(28)21(1)4,+10(+13) / KD +55,+6(+9),SA2 SA3 (1st),Blanka
+110,63214KK,8(41),5(28)21(1)4,+10(+13) / KD +55,+6(+9),Sp*,Blanka
+111,236LK,34,3,HKD +35,-,-,Blanka
+112,236MK,39,3,HKD +35,-,-,Blanka
+113,236HK,43,3,HKD +35,-,-,Blanka
+114,236KK,32,3,HKD +64,-,-,Blanka
+115,22P,39+35,[1000],-,-,-,Blanka
+116,22P~214P,36,-,KD,-,-,Blanka
+117,22P~214PP,36,-,KD,-,-,Blanka
+118,22P~236236P,26,-,KD,-,-,Blanka
+120,5LP,4,3,+5,-2,Chn Sp SA,Cammy
+121,5MP,6,4,+6,-1,-,Cammy
+122,5HP,8,3,+2,-3,Sp SA TC,Cammy
+123,5LK,5,3,+2,-3,Sp SA,Cammy
+124,5MK,8,3,+3,-4,-,Cammy
+125,5HK,11,3,+2,-4,-,Cammy
+126,2LP,4,2,+5,-2,Chn Sp SA,Cammy
+127,2MP,7,3,+5,-2,Sp SA,Cammy
+128,2HP,10,4,+7,+1,-,Cammy
+129,2LK,5,3,+3,-2,Chn,Cammy
+130,2MK,8,3,+1,-5,Sp SA,Cammy
+131,2HK,9,3,HKD +31,-10,-,Cammy
+132,j.LP,4,10,-,-,-,Cammy
+133,j.MP,6,8,-,-,Sp SA2,Cammy
+134,j.HP,8,5,-,-,-,Cammy
+135,j.LK,4,10,-,-,-,Cammy
+136,j.MK,7,6,-,-,-,Cammy
+137,j.HK,10,6,-,-,-,Cammy
+138,4MP,5,5,+4,-1,Sp SA TC,Cammy
+139,4HK,9,3,KD +54,-7,Sp SA Jmp,Cammy
+140,6HK,18,3,KD +26,-12,Sp SA,Cammy
+141,4MP~HK,9,3,KD +49,-12(-19),Sp SA Jmp,Cammy
+142,5HP~HK,13,4(12)3,KD +33,-12,Sp SA (1st),Cammy
+144,236LK,9,13,KD +26(+48),-12(0),-,Cammy
+145,236MK,9,15,KD +26(+48),-14(0),-,Cammy
+146,236HK,15,3(1)12,KD +29(+48),-12(-1),SA3 (1st),Cammy
+147,236[HK],27(25),3(1)12,KD +47 Launch,-14,SA3 (4th),Cammy
+148,236KK,13,3(1)12,KD +47 Launch,-14,SA2 SA3,Cammy
+149,623LK,5,12,KD +20,-36,SA3,Cammy
+150,623MK,6,12,KD +21,-36,SA3,Cammy
+151,623HK,7,12,KD +22,-36,SA3,Cammy
+152,623[HK],24(22),12,KD +16,-40,SA3,Cammy
+153,623KK,6,12,KD +16,-40,-,Cammy
+154,214LP,21,4,+2,-3,SA3,Cammy
+155,214MP,24,4,+3,-2,SA3,Cammy
+156,214HP,28,4,+5,+3,SA3,Cammy
+157,214PP,25(28),4,+7,-2,SA2 SA3,Cammy
+158,j.214K,13,11 (until land),-2(+9),-8(+3),-,Cammy
+159,j.214KK,13,12 (until land),0(+9),-4(+5),SA2,Cammy
+160,236P,20(40),-,-,-,-,Cammy
+161,236[HP],40(60),-,-,-,-,Cammy
+162,236PP,20(40),-,-,-,-,Cammy
+163,236P~No Input,50,9,KD +48,+2,SA3,Cammy
+164,236[HP]~No Input,70,9(10)5,KD +48,+2,SA3,Cammy
+165,236PP~No Input,50,9(10)5,KD +48,+2,SA2 SA3,Cammy
+166,236P~K,20+13,until land,-1(+9),-7(+3),-,Cammy
+167,236[HP]~K,40+13,until land,-1(+9),0(+5),-,Cammy
+168,236PP~K,20+13,until land,-1(+9),0(+5),SA2,Cammy
+169,236P~2K,20+18,4,+5(+9),-5(-1),-,Cammy
+170,236[HP]~2K,40+18,4(14)4,+8,-2,-,Cammy
+171,236PP~2K,20+18,4(14)4,+8,-2,SA2,Cammy
+172,236P~LPLK,20+10,3,HKD +18,-,-,Cammy
+173,236[HP]~LPLK,40+10,3,HKD +60 Launch,-,-,Cammy
+174,236PP~LPLK,20+10,3,HKD +60 Launch,-,-,Cammy
+175,236P~P,20~,-,-,-,-,Cammy
+176,236[HP]~P,40~,-,-,-,-,Cammy
+177,236PP~P,20~,-,-,-,-,Cammy
+179,5LP,4,3,+5,-3,SS Chn Sp SA,Chun-Li
+180,5MP,5,4,+6,+1,SS Sp SA,Chun-Li
+181,5HP,13,3,+2,-4,SS,Chun-Li
+182,5LK,5,3,+2,-2,SS Sp SA,Chun-Li
+183,5MK,7,4,+4,-2,SS Sp SA,Chun-Li
+184,5HK,14,3,+4,0,SS,Chun-Li
+185,2LP,4,3,+4,-2,SS Chn Sp SA,Chun-Li
+186,2MP,6,4,+4,-2,SS Sp SA,Chun-Li
+187,2HP,11,3(5)5,+1,-3,SS Sp SA (2nd),Chun-Li
+188,2LK,4,2,0,-2,SS Chn Sp SA,Chun-Li
+189,2MK,7,3,-2,-6,SS Sp SA,Chun-Li
+190,2HK,9,6,HKD +33,-7,SS,Chun-Li
+191,j.LP,4,10,-,-,-,Chun-Li
+192,j.MP,7,4(6)5,-,-,Sp SA1,Chun-Li
+193,j.HP,9,6,-,-,TC,Chun-Li
+194,j.LK,4,8,-,-,-,Chun-Li
+195,j.MK,6,5,-,-,-,Chun-Li
+196,7HK or 9HK,8,5,-,-,-,Chun-Li
+197,8HK,8,7,-,-,-,Chun-Li
+198,4/6MP,7,3,+2,-3,SS Sp SA,Chun-Li
+199,4HP,8,6,+5,-1,SS Sp SA,Chun-Li
+200,3HP,21,4,+1,-2,SS,Chun-Li
+201,6HK,16,2,-1,-4,SS,Chun-Li
+202,3HK,37,2,+7,+3,-,Chun-Li
+203,j.2MK,3,11,-,-,TC Sp SA,Chun-Li
+204,j.HP~j.HP,6,4,-,-,-,Chun-Li
+205,j.2MK~j.2MK,6,11,-,-,TC Sp SA,Chun-Li
+206,j.2MK~j.2MK~j.2MK,6,11,-,-,Sp SA,Chun-Li
+208,9 (against wall),-,-,-,-,-,Chun-Li
+209,[4]6LP,15,[90],-3,-7,SA3,Chun-Li
+210,[4]6MP,12,[55],-3,-7,SA3,Chun-Li
+211,[4]6HP,11,[25],-2,-6,SA3,Chun-Li
+212,[4]6PP,11,-,+5,0,SA2 SA3,Chun-Li
+213,236LK,8,2(5)2(5)2,+3,-8,SA3 (2nd),Chun-Li
+214,236MK,14,2(4)2(4)2(5)2,+3,-8,SA3 (3rd),Chun-Li
+215,236HK,23,2(3)2(2) 2(4)2(6)2,KD +50,-3,SA3 (4th),Chun-Li
+216,236KK,8,2(4)2(4) 2(4)2(4)2,+3,-3,SA2 SA3 (5th),Chun-Li
+217,236KK~KK,11,2(5)2(4) 2(5)2(13)3,KD +29,-13,-,Chun-Li
+218,j.236LK,8,2(4)2(4)2,-4(+1),-7(-2),-,Chun-Li
+219,j.236MK,10,2(4)2(4)2(5)2,-4(+1),-8(-3),-,Chun-Li
+220,j.236HK,12,2(4)2(3) 2(4)2(3)2,-5(-2),-9(-6),-,Chun-Li
+221,j.236KK,6,2(4)2(2)2(3) 2(2)2(3)2,KD +21 (+27~31),-32(-16),-,Chun-Li
+222,[2]8LK,9,2(6)2(6)2,KD +33,-18,-,Chun-Li
+223,[2]8MK,16,2(6)2(6) 2(7)2(4)2,KD +34,-17,-,Chun-Li
+224,[2]8HK,21,2(4)2(8)2(6) 2(5)2(5)2(3)2,KD +33,-18,-,Chun-Li
+225,[2]8KK,16,2(4)2(4)2(5) 2(4)2(5)2(4)2,KD +55(+41),-12,-,Chun-Li
+226,214LK,23,2,0,-9,SA3,Chun-Li
+227,214MK,27,3,+2,-3,SA3,Chun-Li
+228,214HK,32,3,+6,-1,SA3,Chun-Li
+229,214KK,26,3,KD +52 OTG,-5,SA2 SA3,Chun-Li
+230,22LK,5,2(10)2,KD +29,-37,-,Chun-Li
+231,22MK,7,2(10)2,KD +25,-41,-,Chun-Li
+232,22HK,9,2(8)2(8)2(11)2,KD +37,-57,-,Chun-Li
+233,22KK,6,3(5)3,KD +30,-40,-,Chun-Li
+235,5LP,4,3,+4,-1,Chn Sp SA TC,Dee_Jay
+236,5MP,7,3,+5,+2,TC,Dee_Jay
+237,5HP,9,6,+3(+8),-4(+1),Sp SA (close),Dee_Jay
+238,5LK,5,2,+2,-2,Sp SA,Dee_Jay
+239,5MK,9,3,+6,-1,-,Dee_Jay
+240,5HK,12,3,+1,-5,-,Dee_Jay
+241,2LP,5,3,+4,-1,Chn Sp SA,Dee_Jay
+242,2MP,6,4,+4,-1,Sp SA,Dee_Jay
+243,2HP,8,2,+6,-2,-,Dee_Jay
+244,2LK,5,2,+2,-2,Chn,Dee_Jay
+245,2MK,8,4,KD +29,-6,-,Dee_Jay
+246,2HK,14,10,HKD +33(+42),-11(-2),-,Dee_Jay
+247,j.LP,4,7,-,-,-,Dee_Jay
+248,j.MP,6,4,-,-,TC,Dee_Jay
+249,j.HP,9,6,-,-,-,Dee_Jay
+250,j.LK,4,6,-,-,-,Dee_Jay
+251,j.MK,8,6,-,-,-,Dee_Jay
+252,j.HK,10,5,-,-,-,Dee_Jay
+253,6MK,19(21),5,+5(+6),+1(+2),SA,Dee_Jay
+254,4HK,7,24,+1,-5,Sp SA,Dee_Jay
+255,j.2LK,6,until land,+5(+9),+2(+8),-,Dee_Jay
+256,5LP~MK,9,3,+2 (Whiff -17),-3 (Whiff -22),TC,Dee_Jay
+257,5LP~MK~MK,14,3,+2,-8,-,Dee_Jay
+258,5MP~HP,11,7,-2(+2),-11(-7),TC,Dee_Jay
+259,5MP~HP~HK,13,3,KD +34,-13,SA,Dee_Jay
+260,5MP~MP,12,2,+2,-2,TC,Dee_Jay
+261,5MP~MP~HP,20,2,KD +43,-8,-,Dee_Jay
+262,5MP~MP~4HP,-,-,-4,-6,-,Dee_Jay
+263,j.MP~HP,8,7,-,-,-,Dee_Jay
+265,[4]6LP,-,-,-,-,-,Dee_Jay
+266,[4]6MP,17,-,0,-5,SA3 22PP,Dee_Jay
+267,[4]6HP,17(34),-,+3,-3,SA3 22PP,Dee_Jay
+268,[4]6PP,10(23),[11(1)~],+5 (KD +69),+2,SA2 SA3,Dee_Jay
+269,[2]8LK,23,-,-,-,-,Dee_Jay
+270,[2]8MK,6,3(10)4,KD +41,-32,-,Dee_Jay
+271,[2]8HK,6,4(8)5(8)4,KD +42(+37),-44,-,Dee_Jay
+272,[2]8KK,6,6(7)3(9)3,KD +23,-55,-,Dee_Jay
+273,236LK,-,-,-,-,-,Dee_Jay
+274,236MK,12,3,KD +34,-6(-4),SA3,Dee_Jay
+275,236HK,15,3(18)4,+2,-10,SA3 (1st),Dee_Jay
+276,236KK,19,2(9)3,KD +39,-2,SA2 SA3 (2nd),Dee_Jay
+277,214LP,15,4,KD +34,-19,SA3,Dee_Jay
+278,214MP,22,4,KD +32,-19,SA3,Dee_Jay
+279,214HP,28,4,KD +40,-19,SA3,Dee_Jay
+280,214PP,28,4,HKD +23,-19,SA2 SA3,Dee_Jay
+281,214K,13,-,-,-,-,Dee_Jay
+282,214K~LK,13+12,3,+2,-3,SA3,Dee_Jay
+283,214K~MK,13+25,3,HKD +27(+28),+1,-,Dee_Jay
+284,214K~HK,13+15,5,KD +45,-10,SA3,Dee_Jay
+285,214K~6P,13,-,-,-,-,Dee_Jay
+286,214K~6P~4P,13+17,-,-,-,-,Dee_Jay
+287,214KK,8,5,KD +33,-22,-,Dee_Jay
+288,214KK~LK,25+9,3,+6,-2,SA2 SA3,Dee_Jay
+289,214KK~MK,25+19,5,+5(+7),-4(-2),-,Dee_Jay
+290,214KK~HK,25+11,5,KD +55(+57),-8,SA2 SA3,Dee_Jay
+291,214KK~6P,19,-,KD +40,-15,-,Dee_Jay
+292,214KK~6P~4P,19+16,-,KD +24,-31,-,Dee_Jay
+293,22PP,88 minimum,-,-,-,-,Dee_Jay
+294,22PP,95(168) minimum,-,-,-,-,Dee_Jay
+296,5LP,4,3,+4,-1,Chn Sp SA,Dhalsim
+297,5MP,14,3,-2,-5,-,Dhalsim
+298,5HP,16,4,-6,-11,-,Dhalsim
+299,5LK,9,4,+2,-6,Sp SA,Dhalsim
+300,5MK,12,3,-2,-6,-,Dhalsim
+301,5HK,17,3,+1,-6,Sp SA,Dhalsim
+302,2LP,5,3,+4,-1,Chn Sp SA,Dhalsim
+303,2MP,12,3,0,-4,Sp SA,Dhalsim
+304,2HP,19,4,-1,-12,-,Dhalsim
+305,2LK,4,7,-5(+1),-10(-4),-,Dhalsim
+306,2MK,10,13,-3(+9),-10(+2),-,Dhalsim
+307,2HK,12,16,HKD +22(+37),-16(-1),-,Dhalsim
+308,j.LP,4,4,-,-,-,Dhalsim
+309,j.MP,9,6,-,-,Sp,Dhalsim
+310,j.HP,13,4,-,-,-,Dhalsim
+311,j.LK,6,4,-,-,-,Dhalsim
+312,j.MK,11,6,-,-,-,Dhalsim
+313,j.HK,10,10,-,-,-,Dhalsim
+314,4MP,8,6,+2,-3,Sp SA,Dhalsim
+315,4HP,14,7,-9,-16,Sp SA,Dhalsim
+316,4MK,7,4,+3,0,Sp SA,Dhalsim
+317,4HK,14,6,0,-9,-,Dhalsim
+318,1HP,10,4,+3,-3,Sp SA,Dhalsim
+319,1LK,5,3,+1,-5,Chn,Dhalsim
+320,1MK,8,3,-3,-7,Sp SA,Dhalsim
+321,1HK,9,3,HKD +33,-7,-,Dhalsim
+322,j.2LP,10,until land,-18(+8),-22(+4),Sp,Dhalsim
+323,j.2LK,9,until land,-23(+12),-30(+5),-,Dhalsim
+324,j.2MK,9,until land,-15(+10),-20(+5),-,Dhalsim
+325,j.2HK,9,until land,-17(+10),-22(+5),-,Dhalsim
+327,236P,15(11),-,-2,-6,SA3,Dhalsim
+328,236[P],45,-,KD +49,-3,SA3,Dhalsim
+329,236PP,13,-,KD +49,-3,SA2 SA3,Dhalsim
+330,236LK,18,[81+10],+1,-1,SA3,Dhalsim
+331,236KK,18,[190+10],+1,-3,SA2 SA3,Dhalsim
+332,63214LP,16,15,KD +33,-4,SA3,Dhalsim
+333,63214MP,20,15,KD +33,-4,SA3,Dhalsim
+334,63214HP,26,17,KD +45(+47),-4(-2),SA3,Dhalsim
+335,63214PP,18,55555,KD +50,-11,SA2 SA3,Dhalsim
+336,63214LK,12,10,KD +39,-6,SA3,Dhalsim
+337,63214MK,15,10,KD +42,-3,SA3,Dhalsim
+338,63214HK,15,10,KD +42,-3,SA3,Dhalsim
+339,63214KK,12,10,KD +42,0,SA2 SA3,Dhalsim
+340,j.63214LP,30,[~55],-4~,-2~,-,Dhalsim
+341,j.63214PP,30,[~80],+5~,+6~,-,Dhalsim
+342,2KK or 3KK,36,(85),-,-,-,Dhalsim
+343,j.2KK,15,(81),-,-,-,Dhalsim
+344,4 or 6 + PPP/KKK,4,-,-,-,-,Dhalsim
+345,4 or 6 + j.PPP/j.KKK,9,-,-,-,-,Dhalsim
+347,5LP,4,3,+4,-1,Chn Sp SA,Ed
+348,5MP,7,3,+6,-1,Sp SA TC,Ed
+349,5HP,10,4,+5,-2,Sp SA,Ed
+350,5LK,6,2,+3,-3,TC,Ed
+351,5MK,10,2,0,-5,Sp SA TC,Ed
+352,5HK,10,3,+8,+3,Sp SA,Ed
+353,2LP,4,3,+3,-5,Chn,Ed
+354,2MP,8,3,+2,-6,Sp SA,Ed
+355,2HP,10,4,HKD +30,-12,-,Ed
+356,2LK,5,2,+3,-4,Sp SA,Ed
+357,2MK,9,2,+8,-1,Sp SA,Ed
+358,2HK,12,2,+1,-4,Sp SA TC,Ed
+359,j.LP,5,5,-,-,-,Ed
+360,j.MP,8,6,-,-,-,Ed
+361,j.HP,9,4,-,-,-,Ed
+362,j.LK,8,3,-,-,-,Ed
+363,j.MK,10,2,-,-,-,Ed
+364,j.HK,8,2,-,-,-,Ed
+365,5[HP],30+9,1~15,Crumple +76 (+12 ground),-2(+2),6KK*,Ed
+366,5[HP],60+9,1~15,Crumple +76 (+12 ground),+4,6KK*,Ed
+367,6HP,17,3,+1,-3,-,Ed
+368,5LK~LK,7,3,+3,-3,TC,Ed
+369,5LK~LK~LK,7,3,+1,-8,-,Ed
+370,5MP~HP,13,2,KD +38,-8(-23),Sp* SA,Ed
+371,5MK~MK,7,2,0(-15),-6(-20),TC,Ed
+372,5MK~MK~HP,11,5,KD +35,-11,-,Ed
+373,2HK~HP,12,5,KD +34,-8,SA,Ed
+375,236P,14,12,+3,-5,6P* SA3,Ed
+376,236PP,14,12,KD +43,-2,6P* SA2 SA3,Ed
+377,236P~6P,12,-,+3,-8,SA3,Ed
+378,236PP~6P,12,-,KD +46~,-2,SA2 SA3,Ed
+379,623LP,10,8,KD +38,-13,SA3,Ed
+380,623MP,14,6,KD +39,-20,SA3,Ed
+381,623HP,16,6,KD +38,-21,SA3,Ed
+382,623PP,13,6,KD +18,-28,-,Ed
+383,214LP,11,3(3)3(6)4,+3,-5,SA3,Ed
+384,214MP,13,2(7)3(9)3,KD +39,-12,SA3,Ed
+385,214HP,15,2(11)2(6)2,KD +40,-12,SA3,Ed
+386,214PP,13,1(4)1(3)1(3) 1(3)1(3)1(8)2,KD +42,-3,SA2 SA3,Ed
+387,236LK,11+5,4,+1,-6,SA3,Ed
+388,236[LK],26+5,5,KD +61,+4,SA3 (1st),Ed
+389,236MK,15+5,4,+3,-6,SA3,Ed
+390,236[MK],30+5,5,KD +61,+4,SA3 (1st),Ed
+391,236HK,12+5,8,KD +51(+63),-,SA3,Ed
+392,236[HK],30+5,10,KD +56(68),-,SA3 (1st),Ed
+393,236KK,25,4,KD +61,+4,SA2 SA3 (1st),Ed
+394,4KK,-,-,-,-,-,Ed
+395,5/6KK,-,-,-,-,6P*,Ed
+396,5/6KK~6P,11+11,3,KD +38,-4,SA3,Ed
+397,5/6KK~dl.6P,13+11,3,KD +50,-6,SA3,Ed
+399,5LP,5,3,+4,-1,Sp SA TC,E.Honda
+400,5MP,10,4,+4,+1,Sp SA TC,E.Honda
+401,5HP,8(9),7,-1(+2),-6(-3),Sp SA,E.Honda
+402,5LK,4,2,+5,-1,Sp SA,E.Honda
+403,5MK,10,4,+4,-3,-,E.Honda
+404,5HK,8,2(1)4,-1,-5(-11),Sp SA,E.Honda
+405,2LP,4,3,+4,-1,Chn Sp SA,E.Honda
+406,2MP,8,4,+3,-3,Sp SA,E.Honda
+407,2HP,11,4,+3(+5),-3(-1),Sp*,E.Honda
+408,2LK,5,2,+3,-3,Chn,E.Honda
+409,2MK,9,3,+5,-2,-,E.Honda
+410,2HK,11,3(6)5,HKD +30(+39),-10(-1),-,E.Honda
+411,j.LP,5,6,-,-,-,E.Honda
+412,j.MP,6,8,-,-,-,E.Honda
+413,j.HP,9,4,-,-,-,E.Honda
+414,8HP,10,8,-,-,-,E.Honda
+415,j.LK,6,6,-,-,-,E.Honda
+416,j.MK,9,6,-,-,-,E.Honda
+417,j.HK,10,8,-,-,-,E.Honda
+418,6HK,14,3,+1,-5,-,E.Honda
+419,3HK,22,6,+3,-3,kara,E.Honda
+420,j.2MK,11,9,-,-,-,E.Honda
+421,5LP~MP,4,4,KD +34,-10,Sp SA,E.Honda
+422,5MP~3HK,22,6,+3,-3,kara,E.Honda
+424,22K,51,-,-,-,-,E.Honda
+425,214LP,12,2(4)2(2)1(2)2(1)1(1)2 [2(4)2(2)1(1)2(1)1(10)2],+2[+4],-4,SA3,E.Honda
+426,214MP,18,2(4)2(1)1(3)1(2)1(3)1(3)1(2)1(2)2 [2(4)2(2)1(3)1(2)1(4)1(1)1(14)2],+2[+4],-8,SA3,E.Honda
+427,214HP,21,2(4)2(3)1(3)1(3)1(3)1(3)1(3)1(2)1(2)1(2)1(1)2 [2(4)2(3)1(3)1(3)1(3)1(3)1(3)1(1)1(1)1(14)2],+2[+4],-8,SA3,E.Honda
+428,214PP,19,4(6)2(3)2(3)2(4)2(2)2(2)2(2)2(1)2 [4(6)2(3)2(3)2(4)2(1)2(1)1(1)1(10)2],+4[+6],-3,SA2 SA3,E.Honda
+429,[4]6LP,10,1~22,KD +40,-4,SA3,E.Honda
+430,[4]6MP,10,1~24,KD +40,-4,SA3,E.Honda
+431,[4]6HP,14,1~34,KD +40,-4,SA3,E.Honda
+432,[4]6PP,9,"5,1~30",KD +36(+37),-20,-,E.Honda
+433,[2]8LK,11(45),4(26)8,KD +23[+27],+1,-,E.Honda
+434,[2]8MK,11(42),4(24)7,KD +23[+27],+1,-,E.Honda
+435,[2]8HK,11(39),4(22)6,KD +23[+27],+1,-,E.Honda
+436,[2]8KK,6(36),12(13)9,KD+23[+27],+1,-,E.Honda
+437,63214LK,7,3,HKD +7,-,-,E.Honda
+438,63214MK,7,3,HKD +7,-,-,E.Honda
+439,63214HK,7,3,HKD +7,-,-,E.Honda
+440,63214KK,7,3,HKD +7,-,-,E.Honda
+441,236K,14,-,-,-,-,E.Honda
+442,236KK,13(11),-,-,-,-,E.Honda
+443,236K~P,9,3(13)3,KD +42,-3,SA3,E.Honda
+444,236KK~P,9,3(13)3,KD +45,+2,SA2 SA3,E.Honda
+445,236K~P~P,14,3,KD +22,-24,-,E.Honda
+446,236KK~P~P,14,3,KD +54,-24,-,E.Honda
+447,236K~2P,12,2(17)3,KD +64,-22,SA3,E.Honda
+448,236KK~2P,12,2(17)3,KD +64,-22,SA2 SA3,E.Honda
+449,22P,11,5,+3(+7),-3(+1),Sp* SA3,E.Honda
+451,5LP,5,3,+4,-2,Chn Sp SA,Guile
+452,5MP,7,3,+6,0,Sp SA TC,Guile
+453,5HP,7,3,-1,-6,Sp SA,Guile
+454,5LK,5,2,+3,-1,Sp SA,Guile
+455,5MK,7,5,+1,-4,-,Guile
+456,5HK,13,3,+3,-4,SA,Guile
+457,2LP,4,3,+5,-2,Chn Sp SA,Guile
+458,2MP,6,3,+4,-2,Sp SA TC,Guile
+459,2HP,9,5,0,-9,-,Guile
+460,2LK,5,2,+1,-5,Chn,Guile
+461,2MK,8,3,+4,-5,TC,Guile
+462,2HK,9,2(16)3,HKD +34,-12,TC,Guile
+463,j.LP,4,10,-,-,-,Guile
+464,j.MP,7,3,-,-,-,Guile
+465,j.HP,9,4,-,-,-,Guile
+466,j.LK,6,10,-,-,-,Guile
+467,j.MK,7,7,-,-,-,Guile
+468,j.HK,10,5,-,-,-,Guile
+469,6MP,20,3,+2,-3,-,Guile
+470,6HP,16,3,+5,+3,-,Guile
+471,4HP,9,3,+1,-4,Sp SA,Guile
+472,4LK,8,5,0(+4),-4(0),-,Guile
+473,4MK or 6MK,11,3,+3,-6,-,Guile
+474,6HK,17,3,-1,-8,-,Guile
+475,3HK,10,3,0,-9,Sp SA,Guile
+476,5MP~4HP,16,3,KD +35,-9,Sp SA kara,Guile
+477,2MP~2MP,12,3,KD +44,-6,Sp SA,Guile
+478,2MK~6MP,20,3,+1,-5,-,Guile
+479,2HK~3HK,10,3,KD +33,-10(-30),Sp SA,Guile
+481,[4]6LP,10,-,+3(+4),-3,SA3,Guile
+482,[4]6MP,10,-,+3(+4),-3,SA3,Guile
+483,[4]6HP,10,-,+3(+4),-3,SA3,Guile
+484,[4]6PP,10,-,KD +48,+3,SA2 SA3,Guile
+485,[2]8LK,5,6,KD +36,-30,SA3,Guile
+486,[2]8MK,6,6,KD +37,-31,SA3,Guile
+487,[2]8HK,7,6,KD +39,-32,SA3,Guile
+488,[2]8KK,6,42,KD +29,-33(-37),-,Guile
+489,214LP,16,[45],-3,-4,SA3,Guile
+490,214MP,21,[85],-6,-7,SA3,Guile
+491,214HP,31,[100],+1,-1,SA3,Guile
+492,214P ~ 6P,10,-,KD +44~,-1,SA3,Guile
+493,214P ~ 6PP,10,-,KD +48~,+3,SA2 SA3,Guile
+494,214PP,15,[100],KD +53,-4,SA2 SA3,Guile
+495,214PP ~ 6P,10,-,KD +47,-3,SA2* SA3,Guile
+496,214PP ~ 6PP,10,-,KD Spin + Splat,+3,SA2 SA3,Guile
+497,PP,11,-,+2,-2,-,Guile
+498,[4]6P~P,11,-,+2,-2,-,Guile
+499,[4]6PP~P,11,-,KD +54~,+3,-,Guile
+501,5LP,5,2,+5,0,Sp SA,Jamie
+502,5LP,5,3,+2,-3,Sp SA TC,Jamie
+503,5MP,8,4,+5,+1,-,Jamie
+504,5HP,5,1(1)1(4)3,+1(+3),-3(-1),Sp SA (2nd),Jamie
+505,5LK,5,2,+3,-1,Chn Sp SA,Jamie
+506,5MK,10,3,+1,-3,Sp SA,Jamie
+507,5HK,15,3,+1,-5,Sp SA,Jamie
+508,2LP,4,2,+5,-1,Chn Sp SA,Jamie
+509,2MP,6,3,+3,0,Sp SA,Jamie
+510,2HP,9,5,0,-8,Sp SA,Jamie
+511,2LK,5,2,+1,-3,Chn,Jamie
+512,2MK,7,3,-1,-6,Sp SA,Jamie
+513,2HK,9,2(2)3,HKD +33,-10,TC,Jamie
+514,j.LP,5,9,-,-,-,Jamie
+515,j.MP,7,4,-,-,Sp,Jamie
+516,j.HP,10,6,-,-,-,Jamie
+517,j.LK,6,6,-,-,-,Jamie
+518,j.MK,7,6,-,-,-,Jamie
+519,j.HK,8,3(5)4,-,-,-,Jamie
+520,2KK,9,3,KD +53 Launch,-8,Jmp,Jamie
+521,6MK,22,3,+1,-3,-,Jamie
+522,6MK,22,3,+1,-3,TC,Jamie
+523,4HP,18,4,+1,-3,SA,Jamie
+524,4HP,18,4,+1,-3,SA TC,Jamie
+525,6HK,16,3,+3,-3,SA,Jamie
+526,6HK,16,4,+3,-3,SA TC,Jamie
+527,2HK~HK,12,3,KD +22(23),-28,TC,Jamie
+528,2HK~HK~P,-,-,KD +4(5),-46,-,Jamie
+529,5LP~LK,6,2,-3,-8,TC,Jamie
+530,5LP~LK~MP,8,3,-2,-10,Sp SA,Jamie
+531,6MK~MK,15,3(5)2,KD +31,-14,TC,Jamie
+532,6MK~MK~P,-,-,KD -1 (DL3: KD +2),-46 (DL3: -43),-,Jamie
+533,4HP~HP,21,4,+1,-11,SA TC,Jamie
+534,4HP~HP~HK,21,3,KD +23,-20,-,Jamie
+535,6HK~4HK,-,-,-,-,TC,Jamie
+536,6HK~4HK~P (close),(25~45)+17,4,KD +32,-12,Sp SA,Jamie
+537,6HK~4HK~P (mid),(51~75)+4,2(8)2(11)2,KD +35,-9,Sp SA,Jamie
+538,6HK~4HK~P (far),(76~100)+Drink,-,-,-,-,Jamie
+540,22P,48,-,-,-,-,Jamie
+541,22P (hold),92(90),-,-,-,-,Jamie
+542,22P (hold),141(139),-,-,-,-,Jamie
+543,22P (hold),188,-,-,-,-,Jamie
+544,22P (activation),1,-,-,-,-,Jamie
+545,236LP,13,2,-1,-6,SA3,Jamie
+546,236LP,13,2(9)3,+1,-3,SA3,Jamie
+547,236MP,16,2,-1,-6,SA3,Jamie
+548,236MP,16,2(9)3,+1,-3,SA3,Jamie
+549,236HP,19,2,-1,-6,SA3,Jamie
+550,236HP,19,2(9)3,+1,-3,SA3,Jamie
+551,236PP,13,2,0,-3,SA2 SA3,Jamie
+552,236PP,13,2(9)3,+3,-3,SA2 SA3,Jamie
+553,236LP~6P,13 [33],2,-3,-13,-,Jamie
+554,236LP~6P,15 [48],2(5)2,-2,-10,-,Jamie
+555,236MP~6P,16 [39],2,-3,-11,-,Jamie
+556,236MP~6P,15 [51],2(5)2,-2,-10,-,Jamie
+557,236HP~6P,19 [45],2,-3,-9,-,Jamie
+558,236HP~6P,15 [54],2(5)2,-2,-10,-,Jamie
+559,236PP~6P,13 [34],2,-3,-9,-,Jamie
+560,236PP~6P,15 [48],2(5)2,-2,-10,-,Jamie
+561,236LP~6P~6P,13 [53],2,KD +27,-17,-,Jamie
+562,236LP~6P~6P,16 [78],2(4)2(14)3,KD +27,-14,-,Jamie
+563,236MP~6P~6P,16 [62],2,KD +27,-15,-,Jamie
+564,236MP~6P~6P,16 [81],2(4)2(14)3,KD +27,-14,-,Jamie
+565,236HP~6P~6P,19 [71],2,KD +27,-13,-,Jamie
+566,236HP~6P~6P,16 [84],2(4)2(14)3,KD +27,-14,-,Jamie
+567,236PP~6P~6P,13 [53],2,KD +28,-13,-,Jamie
+568,236PP~6P~6P,16 [78],2(4)2(14)3,KD +28,-14,-,Jamie
+569,236LP~6K,14,2,-7,-15,-,Jamie
+570,236MP~6K,17,2,-7,-15,-,Jamie
+571,236HP~6K,20,2,-7,-15,-,Jamie
+572,236PP~6K,14,2,-7,-15,-,Jamie
+573,236LP~6K~6K,18,2,KD -1 (DL3: KD +23),-49 (DL3 -25),-,Jamie
+574,236MP~6K~6K,21,2,KD -1 (DL3: KD +22),-49 (DL3 -26),-,Jamie
+575,236HP~6K~6K,24,2,KD -1 (DL3: KD +22),-49 (DL3 -26),-,Jamie
+576,236PP~6K~6K,18,2,KD +1 (DL3: KD +24),-49 (DL3 -26),-,Jamie
+577,214LP,17,9,KD +39(+47),-6(+2),SA3,Jamie
+578,214MP,20,9,KD +39(+47),-6(+2),SA3,Jamie
+579,214HP,25,9,KD +39(+47),-5(+3),SA3,Jamie
+580,214PP,20,9,KD +73(+81) Tumble,-1(+7),SA2 SA3,Jamie
+581,214P~6P,19,3,KD +20(+19),-23,SA3,Jamie
+582,214PP~6P,19,3,KD +20,-23,SA2 SA3,Jamie
+583,623LK,6,7,KD +42,-44,-,Jamie
+584,623MK,8,7,KD +34,-43,-,Jamie
+585,623HK,10,7,KD +39,-43,-,Jamie
+586,623KK,6,7,KD +40,-43,-,Jamie
+587,j.214K,11,1(2)until land,KD +42(+52),-8(+2),-,Jamie
+588,j.214KK,11,1(2)until land,KD +58(+65),-4(+3),-,Jamie
+589,236LK,18,2(2)3(4)2(11)2,KD +42,-12,SA3,Jamie
+590,236MK,22,2(1)2(3)2(5)2(12)2(5)2,KD +35,-16,SA3,Jamie
+591,236HK,26,2(6)2(6)2(6) 2(13)2(7)2(15)2,KD +34,-17,SA3,Jamie
+592,236KK,21,3(3)2(8)2(3)2(7)2(7) 2(12)2(11)2(4)2(4)2,KD +12,-46,SA2 SA3,Jamie
+593,63214K,8,2,+8,-,-,Jamie
+594,63214KK,8,2,HKD +86 Crumple,-,-,Jamie
+596,5LP,6,3,+4,-2,Chn Sp SA,JP
+597,5MP,12,3,+1,-6,-,JP
+598,5HP,12,2,+3,-3,Sp SA,JP
+599,5LK,5,3,+3,-2,Sp SA,JP
+600,5MK,8,3,+1,-3,Sp SA,JP
+601,5HK,12,4,+7,+2,TC,JP
+602,2LP,4,2,+4,-1,Chn Sp SA,JP
+603,2MP,7,4,+6,-2,Sp SA,JP
+604,2HP,9,6,+1,-6,Sp SA,JP
+605,2LK,6,2,+2,-2,Chn,JP
+606,2MK,9,3,+3,-3,-,JP
+607,2HK,10,3,HKD +27,-6,-,JP
+608,j.LP,5,10,-,-,-,JP
+609,j.MP,12,3,-,-,-,JP
+610,j.HP,9,5,-,-,-,JP
+611,j.LK,6,8,-,-,-,JP
+612,j.MK,7,6,-,-,-,JP
+613,j.HK,11,6,-,-,-,JP
+614,4MP,8,3,+5,-1,Sp SA TC,JP
+615,6MK,22,2,+3,-3,-,JP
+616,3HP,16,3,HKD +17,-14,-,JP
+617,6HK,11,24,KD +38,-5(-8),Sp SA (2nd),JP
+618,4MP~MP,10,3,+3,-6,Sp SA,JP
+619,5HK~HP,20,3,+3,-3,Sp SA TC,JP
+620,5HK~HP~HP,21,3,+3,-4,-,JP
+621,5HK~HP~HK,21,3,+3,-4,-,JP
+623,22P,22,10,KD +44,-2,SA3,JP
+624,22PP,20,1010,KD +53(+50),+3,SA2 SA3,JP
+625,236LP,16,33,KD +38,-10,SA3,JP
+626,236MP,20,3(1)3,KD +42,-8,SA3,JP
+627,236HP,28,3(9)3,KD +67(+87),+4,SA3,JP
+628,236PP,22,3(6)3,KD +67(+87),+2,SA2 SA3,JP
+629,214P,50+100,[10],KD ~,-,-,JP
+630,214PP,40+70,[10(20)10],KD ~,-,-,JP
+631,214P~214LP/MP,6,[20],-,-,-,JP
+632,214P~214HP,19(21),[10],KD +58(+60),+9(+11),-,JP
+633,214PP~214HP,19(21),[10(20)10],KD +92,+39(+40),-,JP
+634,236LK,14+8,6,KD +42~,-6~,SA3,JP
+635,236MK,14+12,6,+6~,-8~,SA3,JP
+636,236HK,14+12,6,+6~,-8~,SA3,JP
+637,236KK,22,6(14)6,KD +66~,+25~,-,JP
+638,236[K],34 total,-,-,-,-,JP
+639,214K,26~,3,HKD +18,-,-,JP
+640,214KK,26~,3,HKD +18,-,-,JP
+641,22K,3,18,-,-,-,JP
+642,22K (Bomb),59,10,KD ~,-,-,JP
+643,22KK,1,20,-,-,-,JP
+644,22KK (Bomb),59,10(32)10,KD ~,-,-,JP
+646,5LP,4,4,+5,-2,Chn Sp SA,Juri
+647,5LP (FSE Chain),4,4,+5,-2,Chn Sp SA,Juri
+648,5MP,6,4,+7,+2,Sp SA TC,Juri
+649,5MP (FSE Chain),6,4,+7,+2,Chn Sp SA,Juri
+650,5HP,10,3,-1,-5,Sp SA,Juri
+651,5HP (FSE Chain),10,3,KD +29,-5,Chn Sp SA,Juri
+652,5LK,5,3,+2,-3,Sp SA,Juri
+653,5LK (FSE Chain),5,3,+2,-3,Chn Sp SA,Juri
+654,5MK,5(8),2(1)3,+3,-4,Sp SA (1st),Juri
+655,5MK (FSE Chain),5(8),2(1)3,+3,-4,Chn Sp SA,Juri
+656,5HK,17,4,+2(+5),-3(0),-,Juri
+657,5HK (FSE Chain),17,4,KD +34,-3,Chn Sp SA,Juri
+658,2LP,4,3,+4,-1,Chn Sp SA,Juri
+659,2LP (FSE Chain),4,3,+4,-1,Chn Sp SA,Juri
+660,2MP,6,4,+5,-2,Sp SA,Juri
+661,2MP (FSE Chain),6,4,+5,-2,Chn Sp SA,Juri
+662,2HP,8,4,+3,-11,Sp SA,Juri
+663,2HP (FSE Chain),8,4,KD +34,-11,Sp SA Jmp,Juri
+664,2LK,5,3,+3,-1,Chn,Juri
+665,2LK (FSE Chain),5,3,+3,-1,Chn Sp SA,Juri
+666,2MK,8,3,+1,-6,Sp SA,Juri
+667,2MK (FSE Chain),8,3,+1,-6,Chn Sp SA,Juri
+668,2HK,10,3,HKD +32,-11,-,Juri
+669,2HK (FSE Chain),10,3,HKD +32,-11,Sp SA,Juri
+670,j.LP,5,6,-,-,-,Juri
+671,j.LP (FSE Chain),5,6,KD,-,Chn Sp,Juri
+672,j.MP,7,5,-,-,Sp,Juri
+673,j.MP (FSE Chain),7,5,KD,-,Chn Sp,Juri
+674,j.HP,12,6,HKD +23(+34),-,-,Juri
+675,j.HP (FSE Chain),12,6,KD,-,Chn Sp,Juri
+676,j.LK,4,6,-,-,-,Juri
+677,j.LK (FSE Chain),4,6,KD,-,Chn Sp,Juri
+678,j.MK,6,6,-,-,-,Juri
+679,j.MK (FSE Chain),6,6,KD,-,Chn Sp,Juri
+680,7HK or 9HK,10,6,-,-,-,Juri
+681,j.HK (FSE Chain),10,6,KD,-,Chn Sp,Juri
+682,8HK,10,4,-,-,-,Juri
+683,8HK (FSE Chain),10,4,KD,-,Chn Sp,Juri
+684,6MP,8,3,+4,-3,Sp SA,Juri
+685,6MP (FSE Chain),8,3,+4,-3,Chn Sp SA,Juri
+686,6MK,21,2,+2,-3,-,Juri
+687,6MK (FSE Chain),21,2,KD +25,-3,Sp SA,Juri
+688,6HP,15(23),3(5)3,+2,-4,Sp SA,Juri
+689,6HP (FSE Chain),15(23),3(5)3,KD +40,-4,Chn Sp SA,Juri
+690,4HK,10(19),3(6)3,-2,-6,Sp SA,Juri
+691,4HK (FSE Chain),10(19),3(6)3,KD +20,-6,Chn Sp SA,Juri
+692,5MP~4HP,12,3,KD +35,-3,TC,Juri
+693,5MP~4HP~HP,17,3,KD +32,-16,-,Juri
+695,214LK,10,4,KD +37,-4,SA3,Juri
+696,214MK,13,4,KD +37,-6,SA3,Juri
+697,214HK,25,4,KD +46,-8,SA3,Juri
+698,214KK,16,4,KD +45,-12,SA2 SA3,Juri
+699,236LK,16,10,-2,-8,SA3,Juri
+700,236LK (1 Stock),16,[80],+1,-3,SA3,Juri
+701,236LKMK,11,[120],KD +39,-2,SA2 SA3,Juri
+702,236MK,24,4,+3 (KD +21~23),-10,SA3,Juri
+703,236MK (1 Stock),24,4,+8 (KD +21~23),-10,SA3,Juri
+704,236LKHK,24,4,+9 (KD +56~57),-10,SA2 SA3,Juri
+705,236HK,18,4,KD +27,-11,SA3,Juri
+706,236HK,18,4(12)3,KD +37,-12,SA3,Juri
+707,236MKHK,18,4(12)3(28)5,KD +32,-16,SA2 SA3,Juri
+708,623LP,11,3(2)2,KD +37,-8,SA3,Juri
+709,623MP,5,8(5)2(3)2,KD +31,-37,-,Juri
+710,623HP,5,8(5)2(3)2,KD +28,-37(-41),-,Juri
+711,623PP,6,4(1)2(6)2(2)2,KD +5,-48,-,Juri
+712,j.214K,18,until landing,KD +34(+41),-10(-3),-,Juri
+713,j.214K~K,6,4(4)4(17)4,KD +28(+33),-,-,Juri
+714,j.214KK,16,until landing,KD +37(+44),-10(-3),-,Juri
+715,j.214KK~K,6,4(4)4(17)4,KD +50(+57),-,-,Juri
+717,5LP,4,3,+4,-1,Chn Sp SA,Ken
+718,5MP,5,4,+4,-2,Sp SA TC,Ken
+719,5HP,10,5,+3,-2,Sp SA,Ken
+720,5LK,5,2,0,-2,Sp SA,Ken
+721,5MK,8,3,+3,-5,TC,Ken
+722,5HK,12,2,+1,-5,-,Ken
+723,2LP,4,2,+5,-1,Chn Sp SA,Ken
+724,2MP,6,3,+3,0,Sp SA,Ken
+725,2HP,8,4,+3,-10,Sp SA,Ken
+726,2LK,5,3,+1,-3,Chn,Ken
+727,2MK,7,3,-2,-6,Sp SA,Ken
+728,2HK,8,3,HKD +31,-10,-,Ken
+729,j.LP,5,7,-,-,-,Ken
+730,j.MP,6,4,-,-,Sp,Ken
+731,j.HP,9,6,-,-,-,Ken
+732,j.LK,6,6,-,-,-,Ken
+733,j.mK,7,6,-,-,-,Ken
+734,7HK or 9HK,10,7,-,-,-,Ken
+735,8HK,6,4,-,-,-,Ken
+736,5MP~HP,11,3,KD +28,-14,Sp SA,Ken
+737,5MK~MK,11,2,KD +28,-12,TC,Ken
+738,5MK~MK~HK,13,3,KD +32(30),-11(-32),-,Ken
+740,236LP,16,-,-1,-7,SA3,Ken
+741,236MP,14,-,-3,-9,SA3,Ken
+742,236HP,12,-,-5,-11,SA3,Ken
+743,236PP,12,-,+2,-2,SA2 SA3,Ken
+744,623LP,5,10,KD +33,-23,SA3,Ken
+745,623MP,6,10,KD +33,-28,SA3,Ken
+746,623HP,7,10,KD +25,-36(-38),SA3,Ken
+747,623PP,6,10(14)10,KD +29,-40,-,Ken
+748,214LK,4,2(6)3,KD +46(+38),-14,-,Ken
+749,214MK,14,2(13)2,KD +44(+32),-12,-,Ken
+750,214HK,16,2(13)2(13)2,KD +36 (-38 cr),-12 (-42 cr),-,Ken
+751,214KK,9,4(5)3(6)3(6)3(15)3,KD +28,-61,-,Ken
+752,j.214K,11,2(5)2(6)2,KD +42(+46),-4(0),-,Ken
+753,j.214KK,11,2(1)2(2)2(2)2(3)2,+5 (+10) Front 0 (+5) Back,-5(0),-,Ken
+754,623LK,18(21),6,+2,-4,-,Ken
+755,623MK,23(25),5,+3(+4),-8(-7),-,Ken
+756,623HK,28(30),5,+3(+4),+1(+2),-,Ken
+757,623KK,9(19),2(7)6,+1(+4),-9(-6),-,Ken
+758,236LK,12,3,+1,-11,SA3,Ken
+759,236MK,16,3,+2,-7,SA3,Ken
+760,236HK,25,3,KD +42,-2,SA3,Ken
+761,236K~6LK,6,4,+3,-5,SA3,Ken
+762,236K~6MK,18,3,+3,-3,SA3,Ken
+763,236K~6HK,10,3,KD +33(+38),-3,SA3,Ken
+764,236KK,13,2,-4,-7,SA2 SA3,Ken
+765,236KK~6LK,6,3,+3,-5,SA2 SA3,Ken
+766,236KK~6MK,17,3,-3,-7,SA2 SA3,Ken
+767,236KK~6HK,10,4,KD +37,-4,SA2 SA3,Ken
+768,236KK~6LK~6K,15,3,KD +31,-12,SA2 SA3,Ken
+769,236KK~6MK~6K,11,3,KD +34,-12,SA2 SA3,Ken
+770,236KK~6HK~6K,15,3,KD +42,-20,SA2 SA3,Ken
+771,KK,11(45),-,-,-,-,Ken
+772,KK~LK,11~,-,-,-,-,Ken
+773,KK~MK,11+18,3,+3,-3,SA3,Ken
+774,KK~HK,11+10,4,+3,-4,SA,Ken
+775,KK~623P,11+9,11,KD +22,-35(-36),SA3,Ken
+776,KK~214K,11+13,"[2(2)3(2)]x4,2(5)3",+3,-9,-,Ken
+777,KK~623K,11+9(20),4(5)6,+2(+4),-8(-6),-,Ken
+779,5LP,5,2,+5,-2,Chn Sp SA TC,Kimberly
+780,5MP,6,3,+3,-2,Sp SA TC,Kimberly
+781,5HP,9,3,+3,-4,Sp SA,Kimberly
+782,5LK,5,3,+1,-3,Sp SA,Kimberly
+783,5MK,8,3,+1,-4,Sp SA,Kimberly
+784,5HK,12,4,+7,+2,-,Kimberly
+785,2LP,4,3,+4,-2,Chn Sp SA,Kimberly
+786,2MP,6,3,+7,-1,Sp SA,Kimberly
+787,2HP,8,6,+3,-2,Sp SA,Kimberly
+788,2LK,5,3,+2,-2,Chn,Kimberly
+789,2MK,7,3,+5,+1,-,Kimberly
+790,2HK,8,3,HKD +31,-10,-,Kimberly
+791,j.LP,4,10,-,-,-,Kimberly
+792,j.MP,6,4,-,-,Sp SA2,Kimberly
+793,j.HP,8,5,-,-,-,Kimberly
+794,j.LK,5,10,-,-,-,Kimberly
+795,j.MK,7,6,-,-,-,Kimberly
+796,j.HK,9,6,-,-,-,Kimberly
+797,j.2MP,13,until land,+4(+7),-3(0),-,Kimberly
+798,3MK,11,10,-3(+6),-9(0),-,Kimberly
+799,4HK,22,2,+4,-3,-,Kimberly
+800,6HK,27,3,+1(+2),-3,Jmp,Kimberly
+801,6HK~8,20,-,-10(-9),-22,-,Kimberly
+802,6HK~9,20,-,-10(-9),-22,-,Kimberly
+803,6HK~7,16,-,-10(-9),-22,-,Kimberly
+804,5LP~MP,6,3,+1,-6,TC,Kimberly
+805,5LP~MP~HP,12,2,KD +47,-10,TC,Kimberly
+806,5LP~MP~HP~HK,26,3,KD +26,-12,-,Kimberly
+807,5LP~MP~2HP,10,2,+2,-10,TC,Kimberly
+808,5LP~MP~2HP~HK,15,3,KD +26(+45),-12,-,Kimberly
+809,5LP~MP~2HP~2HK,15,3,KD +16,-12,-,Kimberly
+810,5MP~HP,10,3,KD +28,-12,Sp SA,Kimberly
+812,214LK,6,6(1)6(1)6(8)3,KD +23,-30,-,Kimberly
+813,214MK,7,6(1)6(1)6(8)3,KD +22,-32,-,Kimberly
+814,214HK,8,6(1)6(1)6(8)3,KD +21,-35,-,Kimberly
+815,214KK,6,6(1)6(1)6(1)6(1)2,KD +20,-40,-,Kimberly
+816,j.214K,8,2(7)2(7)2,+4(+8) KD +38(42),-1(+4),-,Kimberly
+817,j.214KK,8,2(2)3(2)2(2)3(2)2,+5(+8) KD +46(51),-1(+4),SA2,Kimberly
+818,236LP,10,2,+3 (KD +30~36),-6,SA3,Kimberly
+819,236MP,17,2,KD +37(+26),-12,SA3 (1st),Kimberly
+820,236HP,24,2,KD +56,-12,SA3 (1st) / Jmp,Kimberly
+821,236PP,17,2,KD +56,-12,SA2 SA3 (1st) / Jmp,Kimberly
+822,236K,8,-,-,-,-,Kimberly
+823,236K~LK,8+21,7,KD +41 (+53~56),+1,SA3,Kimberly
+824,236K~MK,8+10,12,KD +39(+50),-12(-1),SA3,Kimberly
+825,236K~HK,8+19,5,KD +23,-3,SA3,Kimberly
+826,236K~P,8+14,-,-,-,-,Kimberly
+827,236K (close),8+15,2(6)2,+3,-6,-,Kimberly
+828,236K (close)~K,8+15+13,6,KD +29(+31),-8,-,Kimberly
+829,236K (close)~P,8+15+13,6,HKD +31,-,-,Kimberly
+830,236KK,8(7),-,-,-,-,Kimberly
+831,236KK~LK,8+17,7,KD +43 (+56~60),+3,SA2 SA3,Kimberly
+832,236KK~MK,8+8,84,KD +47(+50),-10(-7),SA2 SA3 (1st),Kimberly
+833,236KK~HK,8+15,23,KD +25(+44),-1,SA2 SA3 (2nd),Kimberly
+834,236KK~P,6+13,-,-,-,-,Kimberly
+835,236KK (close),8+13,2(6)2,+3,-6,-,Kimberly
+836,236KK (close)~K,8+13+13,6,KD +43 (Wall Splat +86),-8,SA2,Kimberly
+837,236KK (close)~P,8+13+13,6,HKD +94 (OTG),-,-,Kimberly
+838,214P,19,8,-,-,-,Kimberly
+839,214PP,19,8,-,-,-,Kimberly
+840,22P (refill),42,-,-,-,-,Kimberly
+841,22PP (refill),42,-,-,-,-,Kimberly
+842,22P (1 stock),18(103),[10],KD +88,-,-,Kimberly
+843,22PP (2 stock),19(103),[10 each],KD +90-93,-,-,Kimberly
+844,j.236P,5,3,HKD +22,-,-,Kimberly
+845,j.236PP,5,3,HKD +98 OTG,-,-,Kimberly
+847,5LP,6,3,+6,-1,Chn Sp SA,Lily
+848,5MP,9,4,+1,-4,-,Lily
+849,5HP,11,3,0,-5,Sp SA,Lily
+850,5LK,4,3,+1,-4,Chn Sp SA,Lily
+851,5MK,7,3,+2,-1,Sp SA,Lily
+852,5HK,14,4,+1,-5,-,Lily
+853,2LP,6,3,+5,-1,Chn Sp SA,Lily
+854,2MP,8,3,+1,-3,SA,Lily
+855,2HP,10,24,0,-2,Sp SA (2nd),Lily
+856,2LK,5,2,+2,-2,Chn,Lily
+857,2MK,10,3,+1,-5,Sp SA,Lily
+858,2HK,11,2(6)2,HKD +32,-12,-,Lily
+859,j.LP,5,9,≤ +9,≤ +5,-,Lily
+860,j.MP,9,4,≤ +11,≤ +7,TC,Lily
+861,j.HP,10,6,≤ +15,≤ +11,-,Lily
+862,j.LK,6,6,≤ +9,≤ +5,-,Lily
+863,j.MK,8,5,≤ +13,≤ +9,-,Lily
+864,j.HK,11,6,≤ +15,≤ +9,-,Lily
+865,6HP,18,2,+1,-5,TC Sp SA,Lily
+866,4HP,14,4,+5,-2,Sp SA,Lily
+867,3HP,25,3,+2,-3,-,Lily
+868,j.2HP,9,11,≤ +15,≤ +11,-,Lily
+869,6HP~HP,20,2,0,-9,TC,Lily
+870,6HP~HP~HP,20,5,KD +23,-26,-,Lily
+871,j.MP~MP,10,3,-,-,SA2,Lily
+873,214LP,46(71/90),-,-,-,-,Lily
+874,214MP (HOLD OK),23(4),4,+2,-8,SA3,Lily
+875,214HP (HOLD OK),25(4),4,KD +30,-8,SA3*,Lily
+876,214PP (HOLD OK),21(4),4,KD +39,-5,SA2 SA3*,Lily
+877,214[PP],38,-,-,-,-,Lily
+878,236LK,17,13,KD +33(+45),-8(+4),-,Lily
+879,236MK,21,13,KD +37(+49),-8(+4),-,Lily
+880,236HK,25,13,KD +37(+49),-8(+4),-,Lily
+881,236KK,15,13,KD +42(+54),-8(+4),SA2,Lily
+882,236LK (Windclad),9,"5(6)11,7",KD +47(+46~52),+1(+7),-,Lily
+883,236MK (Windclad),13,"5(6)11,7",KD +49(+47~53),+1(+7),-,Lily
+884,236HK (Windclad),17,"5(6)11,7",KD +52(+50~56),+1(+7),-,Lily
+885,236KK (Windclad),9,1437,KD +56(+62),+2(+8),SA2,Lily
+886,623LP,6,11,KD +36(+41),-27,-,Lily
+887,623MP,8,12,KD +36(+42),-32,-,Lily
+888,623HP,10,13,KD +36(+41),-35,-,Lily
+889,623PP,6,39,KD +32(+37),-35,j.PPP (hit),Lily
+890,623LP (Windclad),4,49,KD +41(+43),-25,-,Lily
+891,623MP (Windclad),6,410,KD +41(+43),-30,-,Lily
+892,623HP (Windclad),8,412,KD +41(+43),-33,-,Lily
+893,623PP (Windclad),4,2210,KD +33(+38),-35,j.PPP (hit),Lily
+894,j.PP,12,11(17),KD +32(+37),-24(-19),-,Lily
+895,j.PPP,12,10(14),KD +40(+46),-24(-19),-,Lily
+896,j.PP (Windclad),12,11(17),KD +33(+38),-24(-19),-,Lily
+897,j.PPP (Windclad),12,10(14),KD +41(+47),-24(-19),-,Lily
+898,360+LP,5,3,HKD +28,-,-,Lily
+899,360+MP,5,3,HKD +28,-,-,Lily
+900,360+HP,5,3,HKD +28,-,-,Lily
+901,360+PP,5,3,HKD +28,-,-,Lily
+903,5LP,7,2,+2,-3,Sp SA TC,Luke
+904,5MP,9,4,+2,-3,SA TC,Luke
+905,5HP,10,3,-1,-6,Sp SA,Luke
+906,5LK,5,2,+3,-2,Sp SA,Luke
+907,5MK,7,3,+1,-3,-,Luke
+908,5HK,10,6,+2(+7),-5(0),-,Luke
+909,2LP,4,2,+4,-2,Chn Sp SA,Luke
+910,2MP,6,2,+5,+1,Sp SA,Luke
+911,2HP,7,5,+1,-13,Sp SA,Luke
+912,2LK,5,3,-1,-5,Chn,Luke
+913,2MK,8,3,-2,-6,Sp SA TC,Luke
+914,2HK,10,3,HKD +28,-9,-,Luke
+915,j.LP,5,9,-,-,-,Luke
+916,j.MP,9,4,-,-,Sp,Luke
+917,j.HP,9,6,-,-,-,Luke
+918,j.LK,6,6,-,-,-,Luke
+919,j.MK,7,6,-,-,-,Luke
+920,j.HK,10,6,-,-,-,Luke
+921,6MP,21,2,+2,-3,-,Luke
+922,4HP,16,3,+3,-3,Sp SA,Luke
+923,4HK,12,4,+4,-5,-,Luke
+924,6HP,16,3,+3,-3,TC,Luke
+925,5LP~MP,8,4,-2,-9,TC,Luke
+926,5LP~MP~HP,10,3,KD +27,-14,Sp SA,Luke
+927,5MP~MP,12,2,0,-8,SA,Luke
+928,5MP~MP~MP,11,2,-6,-14,TC,Luke
+929,5MP~MP~MP~MP,11,2,KD +33,-12,-,Luke
+930,6HP~6HP,11,2,KD +20,-19,Sp SA,Luke
+931,2MK~2HP,9,3,+1,-8,-,Luke
+933,236LP,14,[5],-3,-8,SA3,Luke
+934,236MP,17,[7],0,-5,SA3,Luke
+935,236HP,20,[10],+3,-2,SA3,Luke
+936,236PP,16,-,KD +41,-2,SA2 SA3,Luke
+937,236PP~PP,12,-,KD +48,-21,-,Luke
+938,623LP,5,10,KD +28,-27,SA3,Luke
+939,623MP,6,10,KD +28,-29,SA3,Luke
+940,623HP,9,10,KD +29,-33,SA3,Luke
+941,623PP,6,37,KD +25,-40(-43),-,Luke
+942,623PP~PP,16,3,KD +14,-,-,Luke
+943,214LP,13,3,KD +32,-18,SA3,Luke
+944,214[LP],26,22,KD +54,-8,SA3,Luke
+945,pf.214[LP],26,22,KD +56,-8,SA3,Luke
+946,214MP,19,3,+3,-10,SA3,Luke
+947,214[MP],30,22,KD +54(+67),-3,SA3,Luke
+948,pf.214[MP],29,22,KD +53(+66),-3,SA3,Luke
+949,214HP,22,3,KD +42(+31),-4,SA3,Luke
+950,214[HP],33,22,KD +63,+4,SA3,Luke
+951,pf.214[HP],33,22,KD +63,+4,SA3,Luke
+952,214PP,15,3,KD +52,-22,SA2 SA3,Luke
+953,214PP~PP,1,-,HKD +12,-,-,Luke
+954,j.214P,14,5,KD ~,-12(+3),-,Luke
+955,j.214[P],23,6,KD ~,-30(-21),-,Luke
+956,j.214PP,14,6,KD ~,-33(-21),-,Luke
+957,236K,12,-,-,-,-,Luke
+958,236K~P,12+12,7,KD +32(+38),-6(0),SA3,Luke
+959,236K~K,12+13,8,KD +30(+35),-8(-3),-,Luke
+960,236KK,11,[33],-,-,-,Luke
+961,236KK~P,11+12,7,KD +32(+38),-6(0),SA2 SA3,Luke
+962,236KK~K,11+13,8,KD +38(+43),-5(0),-,Luke
+964,5LP,4,3,+4,-1,Chn Sp SA,Manon
+965,5MP,7,4,+2,-1,Sp SA TC,Manon
+966,5HP,10,4,0,-3,SA TC,Manon
+967,5LK,5,2,+2,-2,Sp SA,Manon
+968,5MK,10,3,-2,-5,Sp SA,Manon
+969,5HK,15,3,-2,-6,-,Manon
+970,2LP,4,2,+2,-2,Chn Sp SA,Manon
+971,2MP,7,3,+6,-1,Sp SA,Manon
+972,2HP,10,5,-2,-8,TC,Manon
+973,2LK,5,2,-1,-5,Chn,Manon
+974,2MK,8,4,+2,-2,-,Manon
+975,2HK,11,2,HKD +29,-12,-,Manon
+976,j.LP,5,10,-,-,-,Manon
+977,j.MP,8,4,-,-,-,Manon
+978,j.HP,9,4,-,-,-,Manon
+979,j.LK,6,9,-,-,-,Manon
+980,j.MK,7,6,-,-,-,Manon
+981,j.HK,11,5,-,-,-,Manon
+982,4MK,10,4,-1,-3,TC,Manon
+983,4HP,8,6,+3,-3,Sp SA,Manon
+984,3HK,11,9,KD +26,-23,-,Manon
+985,5MP~MK,10,2,+2,-5,-,Manon
+986,4MK~MK,14,5,-3,-11,Sp SA,Manon
+987,5HP~HP,5,2,+3,-8,-,Manon
+988,2HP~HP,4,4,+1 (KD +17~19),-10,-,Manon
+990,63214LP,10,2,HKD +19,-,-,Manon
+991,63214MP,8,2,HKD +19,-,-,Manon
+992,63214HP,5,2,HKD +19,-,-,Manon
+993,63214PP,8,2,HKD +19,-,-,Manon
+994,236LK,9,3(2)2,KD +31,-15,SA3*,Manon
+995,236MK,11,3(3)3,KD +34,-14,SA3*,Manon
+996,236HK,14,3(3)3,KD +37,-11,SA3,Manon
+997,236KK,8,4(2)3,KD +45,-19,SA2 SA3 (2nd),Manon
+998,214LK,16,2(10)4,KD +21,-24,-,Manon
+999,214MK,16,4(14)6,KD +33,-13,-,Manon
+1000,214HK,20(21),3,+3,-9,-,Manon
+1001,214KK,22(23),3,+6(+7),-3,-,Manon
+1002,236LP,22,2,HKD +15,-23,SA3 (1st),Manon
+1003,236MP,25,2,HKD +15,-20,SA3 (1st),Manon
+1004,236HP,29,2,HKD +15,-16,SA3 (1st),Manon
+1005,236PP,25,2,HKD +15,-20,-,Manon
+1006,236[P],-,-,-,-,-,Manon
+1007,236[PP],-,-,-,-,-,Manon
+1008,236P~K,(16/17/18)+11,6,KD +51(+56),-5(0),SA3,Manon
+1009,236PP~K,15+11,6,KD +58(+63),-12(-7),SA2 SA3,Manon
+1011,5LP,6,3,0,-2,TC,Marisa
+1012,5MP,7,4,+2,-1,TC,Marisa
+1013,5HP,12,2,+3,-3,TC,Marisa
+1014,5[HP],26(5),2,+6,+3,TC,Marisa
+1015,5LK,6,2,0,-2,Sp SA,Marisa
+1016,5MK,11,4,+4,-2,-,Marisa
+1017,5HK,15,2,+1,-3,-,Marisa
+1018,5[HK],27(10),2,KD +36,+1,-,Marisa
+1019,2LP,4,2,+3,-3,Chn Sp SA,Marisa
+1020,2MP,8,3,+3,-2,Sp SA,Marisa
+1021,2HP,9,5,KD +35,-6,-,Marisa
+1022,2[HP],21(4),6,KD +52,-5,-,Marisa
+1023,2LK,5,3,0,-3,Chn,Marisa
+1024,2MK,9,3,+2,-2,-,Marisa
+1025,2HK,11,3,HKD +29,-11,-,Marisa
+1026,2[HK],23(4),3,HKD +32,-6,-,Marisa
+1027,j.LP,4,7,-,-,-,Marisa
+1028,j.MP,7,4,-,-,TC,Marisa
+1029,j.HP,10,5,-,-,-,Marisa
+1030,j.[HP],28(5),6,HKD +66(+72),+9(+15),-,Marisa
+1031,j.LK,5,10,-,-,-,Marisa
+1032,j.MK,8,8,-,-,-,Marisa
+1033,j.HK,10,7,-,-,-,Marisa
+1034,j.[HK],29(3),6,HKD +67(+72),+10(+15),-,Marisa
+1035,6MP,10,2,+2,-3,TC,Marisa
+1036,4HP,8,2,+3,-1,Sp SA,Marisa
+1037,4[HP],20(3),2,+13,+4,Sp SA,Marisa
+1038,3HP,21,2,0,-3,TC,Marisa
+1039,3[HP],31(14),2,+5,+2,TC,Marisa
+1040,6HK,14,4,0,-3,Sp SA TC,Marisa
+1041,6[HK],27(4~7),4,+10,+3,Sp SA TC,Marisa
+1042,nj.2HP,9,9,-,-,-,Marisa
+1043,nj.2[HP],28(4),9,HKD +68(+72),+11(+15),-,Marisa
+1044,5LP~LP,14,3,-3,-6,Sp SA,Marisa
+1045,5MP~MP,14,2,-3,-8,Sp SA,Marisa
+1046,5HP~HP,24,3,KD +35,+2,-,Marisa
+1047,6MP~HP,11,2,KD +31,-12,-,Marisa
+1048,6MP~HK,11,4,KD +39 / (-21),-10(-26),SA,Marisa
+1049,3HP~3HP,18,2,-3,-12,-,Marisa
+1050,6HK~6HK,16,5,KD +40,-12,-,Marisa
+1051,j.MP~MP,10,3,-,-,-,Marisa
+1053,236LP,17,4,KD +36,-5,SA3,Marisa
+1054,236[LP],30,4,HKD +40,+4,SA3 (1st),Marisa
+1055,236MP,19,4,KD +36,-5,SA3,Marisa
+1056,236[MP],35,4,HKD +40,+4,SA3 (1st),Marisa
+1057,236HP,22,4,KD +36,-5,SA3,Marisa
+1058,236[HP],41,4,HKD +40,+4,SA3 (1st),Marisa
+1059,236PP,19,4,KD +36,-2,SA2 SA3,Marisa
+1060,236[PP],35,4,HKD +40,+4,SA2 SA3 (1st),Marisa
+1061,214LP,12,4,-3,-16,SA3,Marisa
+1062,214MP,16,4,0,-16,SA3,Marisa
+1063,214HP,22,4,KD +38,-16,SA3,Marisa
+1064,214PP,16,4,KD +42,-12,SA2 SA3,Marisa
+1065,214LP~6P,13,5,KD +31,-,-,Marisa
+1066,214MP~6P,13,5,KD +36,-,-,Marisa
+1067,214HP~6P,18,5,KD +56 Bounce,-,-,Marisa
+1068,214PP~6P,13,5,KD +58 Bounce,-,-,Marisa
+1069,623LP,25,3,KD +42(43),+2(3),-,Marisa
+1070,623MP,28,3,KD +42(43),+2(3),-,Marisa
+1071,623HP,32,3,KD +42(43),+2(3),-,Marisa
+1072,623PP,28,3,KD +70 Tumble (HKD +138 Wall Splat),+2(3),-,Marisa
+1073,236LK,20,4,KD +35,-6,SA3,Marisa
+1074,236MK,24,4,KD +37,-4,SA3,Marisa
+1075,236HK,29,4,KD +37,-3,SA3,Marisa
+1076,236KK,24,4,KD +50(68) Wall Splat,-6,SA2 SA3,Marisa
+1077,214K,3(8),26(116),-,-,-,Marisa
+1078,214KK,1,28(58),-,-,-,Marisa
+1079,214K,7,4,-1,-5,-,Marisa
+1080,214KK,7,4,-1,-5,-,Marisa
+1081,214K~P,8+15(16),3,+1,-3,TC,Marisa
+1082,214K~P~P,20,3,KD +31,-21,-,Marisa
+1083,214K~K,8+16,3,HKD +22,-24,-,Marisa
+1084,214K~LPLK,8+5,3,HKD +20,-,-,Marisa
+1086,5LP,4,2,+4,-1,Chn Sp SA,Rashid
+1087,5MP,6,3,+5,+1,TC Sp SA,Rashid
+1088,5HP,9,3,+1,-4,Sp SA,Rashid
+1089,5LK,4,3,+3,-1,Sp SA,Rashid
+1090,5MK,8,3,+6,-3,-,Rashid
+1091,5HK,13,8,-1,-5,-,Rashid
+1092,2LP,5,3,+5,-1,Chn Sp SA,Rashid
+1093,2MP,6,4,+4,+1,Sp SA,Rashid
+1094,2HP,12,3,+5,-6,SA,Rashid
+1095,2LK,5,3,+3,-1,Chn,Rashid
+1096,2MK,7,3,-1,-5,Sp SA,Rashid
+1097,2HK,9,3,HKD +31,-11,-,Rashid
+1098,j.LP,4,5,-,-,-,Rashid
+1099,j.MP,9,5,-,-,Sp,Rashid
+1100,j.HP,8,4(2)3,-,-,-,Rashid
+1101,j.LK,5,5,-,-,-,Rashid
+1102,j.MK,7,6,-,-,-,Rashid
+1103,j.HK,10,5,-,-,-,Rashid
+1104,6MP,8(24),2(14)2,+1,-3,Sp SA (1st),Rashid
+1105,6HP,22,3,+3,-3,-,Rashid
+1106,6HK,16,4,+2(+5),-3(0),-,Rashid
+1107,j.2HP,10,5,-9(-1),-29(-21),Sp,Rashid
+1108,j.8HK,8,5,-,-,-,Rashid
+1109,6[6]~6P,20+8,10,+7,-10(-1),-,Rashid
+1110,6[6]~6K,20+16,2(4)3,+3,-4,-,Rashid
+1111,6[6]~6K (Air Current),20+9,3(21)2(3)3,KD +56 OTG / KD +22,-5,-,Rashid
+1112,5MP~HK,13,4,KD +42,-20,Sp SA,Rashid
+1114,9 (against wall),-,-,-,-,-,Rashid
+1115,6[6],20,-,-,-,-,Rashid
+1116,6KK,32 total,-,-,-,-,Rashid
+1117,6KK~KK,18+51 total,-,-,-,-,Rashid
+1118,236LP,8,3(5)2(4)2,+2,-3,SA3 (1st),Rashid
+1119,236LP (Air Current),6,2(4)3(3)3(4)3(3) 3(4)3(3)3(4)3(3)3,+4,+2,SA3 (1st),Rashid
+1120,236MP,8,"1,2(2)2(5)2(3)2",KD +31,-45(-49),"SA3, (Sp/SA land)",Rashid
+1121,236MP (Air Current),5,"1,2(2)2(4)2(3)2(6) 2(3)2(5)2(3)2(5)2(3)2",KD +42,-78(-83),SA3,Rashid
+1122,236HP,6,2(2)3(3)3(4) 3(4)3(4)3,KD +33,-55,-,Rashid
+1123,236HP (Air Current),5,2(2)3(3)3(4)3(3) 3(2)3(2)3(2)3(3)3,KD +27,-83,-,Rashid
+1124,236PP,6,"1,2(2)3(2)4(2) 4(2)4(2)4(2)4(2)3",KD +25,-42(-48),-,Rashid
+1125,236PP (Air Current),4,"1,2(2)3(2)4(2)4(2) 4(2)4(2)4(2)4(2)4",KD +47,-72(-84),Sp* (air),Rashid
+1126,214LK,15,13,KD +30(+42),-36,-,Rashid
+1127,214LK (Air Current),14,13,KD +35(+47),-24,-,Rashid
+1128,214MK,21,13,KD +52(+64),-36,-,Rashid
+1129,214MK (Air Current),17,15,KD +59,-15,-,Rashid
+1130,214HK,26,13,KD +56(+68),-36,-,Rashid
+1131,214HK (Air Current),17,15,KD +59,-15,-,Rashid
+1132,214KK,21,13,KD +53(+65),-36,-,Rashid
+1133,214KK (Air Current),18,14,KD +53(+65),-24,-,Rashid
+1134,236K,11+6,-,-1,-9,SA3,Rashid
+1135,236{K},28+6,-,+5,0,SA3,Rashid
+1136,236[K],53,-,+16,+8,SA3,Rashid
+1137,236KK,17,-,KD +49,-2,SA2 SA3,Rashid
+1138,236[KK],44,-,KD +65,+10,SA2 SA3,Rashid
+1139,214LP,15,3(1)15,+2,-6,SA3,Rashid
+1140,214MP,20,3(1)15,+4,-4,SA3,Rashid
+1141,214HP,27,3(1)15,KD +40,-2,SA3,Rashid
+1142,214PP,20,3(1)29,KD +49,-10,SA2 SA3,Rashid
+1143,214P~4K,32,-,-,-,-,Rashid
+1144,214P~6K,-,-,-,-,-,Rashid
+1145,214P~6K~K,17,3,KD +44,-9,SA3,Rashid
+1146,j.214LK,13(14),9,KD +16(+18)~,-32(-35),-,Rashid
+1147,j.214MK,18(19),9,KD +18(+20)~,-35(-38),-,Rashid
+1148,j.214HK,21(22),9,KD +20(+22)~,-43(-46),-,Rashid
+1149,j.214KK,13(14),9,KD +34(+35)~,-25(-29),-,Rashid
+1151,5LP,4,3,+4,-1,Chn Sp SA,Ryu
+1152,5MP,6,4,+7,-1,Sp SA TC,Ryu
+1153,5HP,10,5,+3,-2,Sp SA TC,Ryu
+1154,5LK,5,3,+2,-4,Sp SA,Ryu
+1155,5MK,9,3,+4,-4,-,Ryu
+1156,5HK,12,4,+9,+1,-,Ryu
+1157,2LP,4,2,+4,-1,Chn Sp SA,Ryu
+1158,2MP,6,3,+5,0,Sp SA,Ryu
+1159,2HP,9,6,+1,-7,Sp SA,Ryu
+1160,2LK,5,2,+3,-3,Chn,Ryu
+1161,2MK,8,3,+1,-6,Sp SA,Ryu
+1162,2HK,9,3,HKD +32,-12,-,Ryu
+1163,j.LP,4,10,≤ +9,≤ +5,-,Ryu
+1164,j.MP,8,23,"≤ +11,+12 (≤ +13)","≤ +7,+8 (≤ +9)",Sp,Ryu
+1165,j.HP,9,6,≤ +15,≤ +11,-,Ryu
+1166,j.LK,6,10,≤ +9,≤ +5,-,Ryu
+1167,j.MK,7,6,≤ +13,≤ +9,-,Ryu
+1168,j.HK,12,8,≤ +15,≤ +11,-,Ryu
+1169,6MP,20,13,+2,-3,-,Ryu
+1170,6HP,20,23,+6,+1,-,Ryu
+1171,4HP,7,4,+1,-13,Sp SA,Ryu
+1172,4HK,10(20),5(5)3,0,-4,Sp SA,Ryu
+1173,6HK,16,4,+2,-4,Sp*,Ryu
+1174,5MP~LK,5,3,+1,-7,TC,Ryu
+1175,5MP~LK~HK,17,4,KD +36,-8,-,Ryu
+1176,5HP~HK,9,4,KD +36,-8(-18),-,Ryu
+1178,236LP,16,-,-1,-5,SA3,Ryu
+1179,236MP,14,-,-3,-7,SA3,Ryu
+1180,236HP,12,-,-5,-9,SA3,Ryu
+1181,236PP,12,-,KD +54,-1,SA2 SA3,Ryu
+1182,236P,12,-,KD +52,-3,SA3,Ryu
+1183,236PP,12,-,KD +57,+2,SA2 SA3,Ryu
+1184,623LP,5,10,KD +38,-23,SA3,Ryu
+1185,623MP,6,10,KD +34,-32,SA3,Ryu
+1186,623HP,7,10,KD +29,-39,SA3,Ryu
+1187,623PP,6,28,KD +29,-40,-,Ryu
+1188,214LK,12,3,KD +35,-15,-,Ryu
+1189,214MK,14,2(13)2,KD +23(+38),-13(-28),-,Ryu
+1190,214HK,16,2(13)2(13)2,KD +20(+35)(+50),-13(-28)(-43),-,Ryu
+1191,214KK,13,2(4)2(4)2(3)2(4)2,KD +57,-14(-32),-,Ryu
+1192,j.214K,11,2(5)2(6)2,KD +46(+52),-6(+3),-,Ryu
+1193,j.214KK,11,2(1)3(1)3(1)3(2)2,KD +45(+51),-29(-32),-,Ryu
+1194,236LK,15,9,KD +35,-11,SA3,Ryu
+1195,236MK,18,9,KD +40,-8,SA3,Ryu
+1196,236HK,29,9,KD +45,-5,SA3,Ryu
+1197,236KK,18,5,Wall Bounce +49(65),-18,SA2 SA3,Ryu
+1198,214LP,12,6,+2,-3,SA3,Ryu
+1199,214MP,19,6,+2,-6,SA3,Ryu
+1200,214HP,30,6,KD +61 Spin,+2,SA3,Ryu
+1201,214PP,18,6,+3,+3,SA2 SA3,Ryu
+1202,214P,21,6,KD +62 Spin,+3,SA3,Ryu
+1203,214PP,18,6,KD +87 Crumple,+4,SA2 SA3,Ryu
+1204,22P,50,-,-,-,-,Ryu
+1206,5LP,7(4),3,+4,+2,Chn Sp SA,Zangief
+1207,5MP,9,4,+2,-2,TC,Zangief
+1208,5HP,(6~22)+10,3,+3,-3,-,Zangief
+1209,5[HP],32,3,KD +40,+3,-,Zangief
+1210,5LK,7,2,-2,-4,Sp SA,Zangief
+1211,5MK,10,4,+1,-4,-,Zangief
+1212,5HK,13,4,+3,+1,-,Zangief
+1213,2LP,6(3),2,+6,+1,Chn Sp SA,Zangief
+1214,2MP,8,3,+3,-1,Sp SA,Zangief
+1215,2HP,12,8,KD +20,-19,-,Zangief
+1216,2LK,4(3),3,0,-3,Chn,Zangief
+1217,2MK,9,3,+2,-2,-,Zangief
+1218,2HK,12,3,HKD +32,-13,-,Zangief
+1219,j.LP,5,7,-,-,-,Zangief
+1220,j.MP,8,5,-,-,-,Zangief
+1221,j.HP,9,6,-,-,-,Zangief
+1222,j.LK,5,10,-,-,-,Zangief
+1223,j.MK,8,8,-,-,-,Zangief
+1224,j.HK,10,7,-,-,-,Zangief
+1225,j.[HK],32,6,Wall Splat +1(+33),-30(-43),-,Zangief
+1226,3MP,7,3,-1,-3,Sp SA,Zangief
+1227,6MK,14,7,0(+6),-4(+2),-,Zangief
+1228,6HP,14,5,+6,+4,Sp SA,Zangief
+1229,6HK,22(24),7(5),KD +28(+30),-12(-8),-,Zangief
+1230,3HK,16,4,KD +21,-18,-,Zangief
+1231,22MK,9,3,+4,-3,TC,Zangief
+1232,j.2HP,9,9,-,-,-,Zangief
+1233,j.8HP,8,4,-,-,Sp*,Zangief
+1234,5MP~MP,9,4,+2,-6,TC,Zangief
+1235,5MP~MP~MP,15,3,KD +27,-17,-,Zangief
+1236,22MK~MK,9,3,-3,-4,TC,Zangief
+1237,22MK~MK~MK,10,3,-2,-10,Sp SA,Zangief
+1239,PP,15,2(3)2(4)2(8)2(6)2,KD +27(+56),-12(-41),SA3,Zangief
+1240,PPP,12,2(2)2(3)2(6)2(4)2,KD +38(+57),-11(-30),SA2 SA3 (1st),Zangief
+1241,360+LP,5,3,HKD +30,-,-,Zangief
+1242,360+MP,5,3,HKD +28,-,-,Zangief
+1243,360+HP,5,3,HKD +28,-,-,Zangief
+1244,360+PP,5,3,HKD +28,-,-,Zangief
+1245,j.360+K,4,3,HKD +19,-,-,Zangief
+1246,j.360+KK,4,3,HKD +19,-,-,Zangief
+1247,63214K (Close),10,2,HKD +26,-,-,Zangief
+1248,63214KK (Close),10,2,HKD +27,-,-,Zangief
+1249,63214K (Mid),28,2,HKD +29,-,-,Zangief
+1250,63214KK (Mid),23,2,HKD +29,-,-,Zangief
+1251,63214K (Far),55(81),2,HKD +29,-,-,Zangief
+1252,63214KK (Far),54(81),2,HKD +29,-,-,Zangief
+1253,22HK,6,50,HKD +5,-,-,Zangief
