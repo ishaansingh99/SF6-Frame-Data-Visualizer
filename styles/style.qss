@@ -1,0 +1,6 @@
+QPushButton#akiMain {
+    background-color: #1adbc5;
+}
+QPushButton {
+    background-color: #5e1adb;
+}
