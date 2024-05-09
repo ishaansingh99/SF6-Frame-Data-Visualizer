@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 from PySide6 import QtCore, QtWidgets, QtGui, QtSql
+from DataFrameModel import *
 
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):
@@ -38,22 +39,28 @@ class CharWindow(QtWidgets.QWidget):
     def __init__(self,charName):
         super().__init__()
 
+        # Dataframe init
         self.frame_data = pd.read_csv("data/frames.csv")
         self.char_data = self.frame_data[self.frame_data["Character"]==charName]
 
+        # Layout init
         self.layout = QtWidgets.QGridLayout(self)
 
+        # Char Name
         windowTitle = QtWidgets.QLabel(charName)
         windowTitle.setMaximumSize(30,10)
         self.layout.addWidget(windowTitle,0,0)
 
+        # Numpad buttons
         self.numButtons = QtWidgets.QButtonGroup()
         for i in range(1,10):
             button = QtWidgets.QPushButton(str(i))
             button.setCheckable(True)
             self.numButtons.addButton(button,i)
         self.numButtons.setExclusive(True)
+        self.numButtons.buttonClicked.connect(self.updateTable)
 
+        # Adding to layout
         self.layout.addWidget(self.numButtons.button(7),1,0)
         self.layout.addWidget(self.numButtons.button(8),1,1)
         self.layout.addWidget(self.numButtons.button(9),1,2)
@@ -65,6 +72,7 @@ class CharWindow(QtWidgets.QWidget):
         self.layout.addWidget(self.numButtons.button(3),3,2)
         self.numButtons.button(5).setChecked(True)
 
+        # Attack buttons
         self.attackButtons = QtWidgets.QButtonGroup()
         self.attacks = ["LP","MP","HP","LK","MK","HK"]
         for i in range(6):
@@ -72,7 +80,9 @@ class CharWindow(QtWidgets.QWidget):
             button.setCheckable(True)
             self.attackButtons.addButton(button,i)
         self.attackButtons.setExclusive(False)
+        self.attackButtons.buttonClicked.connect(self.updateTable)
         
+        # Adding to layout
         self.layout.addWidget(self.attackButtons.button(0),1,4)
         self.layout.addWidget(self.attackButtons.button(1),1,5)
         self.layout.addWidget(self.attackButtons.button(2),1,6)
@@ -80,18 +90,35 @@ class CharWindow(QtWidgets.QWidget):
         self.layout.addWidget(self.attackButtons.button(4),2,5)
         self.layout.addWidget(self.attackButtons.button(5),2,6)
 
-        self.resultTable = QtWidgets.QTableWidget(self)
-        self.layout.addWidget(self.resultTable,1,7,3,6)
-        self.resultTable.setColumnCount(len(list(self.char_data.columns)[1:-1]))
-        self.resultTable.setHorizontalHeaderLabels(list(self.char_data.columns)[1:-1])
+        # Adding specials checkbox
+        self.specialCheckbox = QtWidgets.QCheckBox("Include specials")
+        self.layout.addWidget(self.specialCheckbox,4,6,1,2)
+        self.specialCheckbox.clicked.connect(self.updateTable)
 
+        # Creating result table
+        self.resultTable = QtWidgets.QTableView(self)
+        self.layout.addWidget(self.resultTable,1,7,3,6)
+        model = DataFrameModel(self.char_data)
+        self.resultTable.setModel(model)
+        self.updateTable()
+
+        # Return button
         self.returnButton = QtWidgets.QPushButton("Return to main screen")
         self.layout.addWidget(self.returnButton,4,0,1,3)
         self.returnButton.clicked.connect(self.returnToMain)
 
-    # def initTable(self):
-    #     resultTable = self.resultTable
-        
+    def updateTable(self):
+        num = self.numButtons.checkedButton().text()
+        if (self.attackButtons.checkedButton()):
+            attack = self.attackButtons.checkedButton().text()
+        else:
+            attack = ""
+        move_input = num + attack
+        if (self.specialCheckbox.isChecked()):
+            new_data = self.char_data[self.char_data["Input"].str.contains(move_input)]  
+        else:
+            new_data = self.char_data[(self.char_data["Input"].str.contains(move_input)) & (self.char_data["Type"] == "Normal")]  
+        self.resultTable.model().setDataFrame(new_data)    
 
     def returnToMain(self):
         widget.setCurrentIndex(0)
