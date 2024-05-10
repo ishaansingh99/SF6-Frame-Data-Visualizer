@@ -58,7 +58,7 @@ class CharWindow(QtWidgets.QWidget):
             button.setCheckable(True)
             self.numButtons.addButton(button,i)
         self.numButtons.setExclusive(True)
-        self.numButtons.buttonClicked.connect(self.updateTable)
+        self.numButtons.buttonClicked.connect(self.updateFrameTable)
 
         # Adding to layout
         self.layout.addWidget(self.numButtons.button(7),1,0)
@@ -80,7 +80,7 @@ class CharWindow(QtWidgets.QWidget):
             button.setCheckable(True)
             self.attackButtons.addButton(button,i)
         self.attackButtons.setExclusive(False)
-        self.attackButtons.buttonClicked.connect(self.updateTable)
+        self.attackButtons.buttonClicked.connect(self.updateFrameTable)
         
         # Adding to layout
         self.layout.addWidget(self.attackButtons.button(0),1,4)
@@ -92,33 +92,88 @@ class CharWindow(QtWidgets.QWidget):
 
         # Adding specials checkbox
         self.specialCheckbox = QtWidgets.QCheckBox("Include specials")
-        self.layout.addWidget(self.specialCheckbox,4,6,1,2)
-        self.specialCheckbox.clicked.connect(self.updateTable)
+        self.layout.addWidget(self.specialCheckbox,4,7,1,1)
+        self.specialCheckbox.clicked.connect(self.updateFrameTable)
 
         # Creating result table
         self.resultTable = QtWidgets.QTableView(self)
         self.layout.addWidget(self.resultTable,1,7,3,6)
-        model = DataFrameModel(self.char_data)
-        self.resultTable.setModel(model)
-        self.updateTable()
+        self.resultTable.setModel(DataFrameModel(self.char_data))
+        self.updateFrameTable()
+        self.resultTable.doubleClicked.connect(self.updateLinkTable)
 
+        # Creating link table
+        self.linkTable = QtWidgets.QTableView(self)
+        self.layout.addWidget(self.linkTable,5,7,1,6)
+        self.linkTable.setModel(DataFrameModel(self.char_data))
+        self.linkTable.setMaximumHeight(200)
+
+        # Adding counter hit, punish counter, and drive rush boxes
+        self.hitAdv = QtWidgets.QButtonGroup()
+        self.hitAdv.addButton(QtWidgets.QCheckBox("NH (+0)"),0)
+        self.hitAdv.addButton(QtWidgets.QCheckBox("CH (+2)"),1)
+        self.hitAdv.addButton(QtWidgets.QCheckBox("PC (+4)"),2)
+        self.dr = QtWidgets.QCheckBox("DR (+4)")
+        self.layout.addWidget(self.hitAdv.button(0),6,7,1,1)
+        self.layout.addWidget(self.hitAdv.button(1),6,8,1,1)
+        self.layout.addWidget(self.hitAdv.button(2),6,9,1,1)
+        self.layout.addWidget(self.dr,6,10,1,1)
+        self.hitAdv.buttonClicked.connect(self.updateLinkTable)
+        self.hitAdv.button(0).setChecked(True)
+        self.dr.clicked.connect(self.updateLinkTable)
+        
         # Return button
         self.returnButton = QtWidgets.QPushButton("Return to main screen")
         self.layout.addWidget(self.returnButton,4,0,1,3)
         self.returnButton.clicked.connect(self.returnToMain)
 
-    def updateTable(self):
+    def updateFrameTable(self):
+        # Checking direction (one is always pressed)
         num = self.numButtons.checkedButton().text()
-        if (self.attackButtons.checkedButton()):
-            attack = self.attackButtons.checkedButton().text()
-        else:
-            attack = ""
-        move_input = num + attack
+        attack = ""
+
+        # Checking for any attack buttons, can be none or multiple
+        for button in self.attackButtons.buttons():
+            if (button.isChecked()):
+                attack += button.text()
+
+        # If more than one attack button remove the strengths
+        if len(attack) > 2:
+            attack = re.sub('[^KP]','',attack)
+
+        # Check for specials
         if (self.specialCheckbox.isChecked()):
-            new_data = self.char_data[self.char_data["Input"].str.contains(move_input)]  
+            if (num in '789'):
+                new_data = self.char_data[(self.char_data["Input"].str.contains(num) | (self.char_data["Input"].str.contains('j'))) & (self.char_data["Input"].str.contains(attack))]
+            else:
+                new_data = self.char_data[(self.char_data["Input"].str.contains(num)) & (self.char_data["Input"].str.contains(attack))]
         else:
-            new_data = self.char_data[(self.char_data["Input"].str.contains(move_input)) & (self.char_data["Type"] == "Normal")]  
+            if (num in '789'):
+                new_data = self.char_data[(self.char_data["Input"].str.contains(num) | (self.char_data["Input"].str.contains('j'))) & (self.char_data["Input"].str.contains(attack)) & (self.char_data["Type"] == "Normal")]  
+            else:
+                new_data = self.char_data[(self.char_data["Input"].str.contains(num)) & (self.char_data["Input"].str.contains(attack)) & (self.char_data["Type"] == "Normal")]  
+        
+        # Update data in table
         self.resultTable.model().setDataFrame(new_data)    
+
+    def updateLinkTable(self):
+        try:
+            mi = self.resultTable.selectedIndexes()[0]
+        except IndexError:
+            return
+        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
+        new_data = self.char_data[(self.char_data["Startup"].str.isnumeric()) & (self.char_data["Type"] == "Normal") & ~(self.char_data["Input"].str.contains("j"))]
+        adv = 0
+        try:
+            adv = int(self.resultTable.model().data(ind))
+        except ValueError:
+            adv = 0
+            return
+        if (self.hitAdv.button(1).isChecked()): adv += 2
+        if (self.hitAdv.button(2).isChecked()): adv += 4
+        if (self.dr.isChecked()): adv += 4 
+        new_data = new_data[(new_data["Startup"].astype(int) <= adv)]
+        self.linkTable.model().setDataFrame(new_data)
 
     def returnToMain(self):
         widget.setCurrentIndex(0)
@@ -130,7 +185,7 @@ if __name__ == "__main__":
     mainWindow = MainWindow()
     widget.addWidget(mainWindow)
     mainWindow.initCharScreens()
-    widget.resize(1280,720)
+    widget.resize(1366,720)
     widget.show()
 
     with open("styles/style.qss","r") as f:
