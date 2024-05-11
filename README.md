@@ -20,8 +20,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -80,6 +78,7 @@ Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaan
 
 ### To-do:
 - Add gif opening
+  -  Gif assets are added but need renaming of assets and UI elements
 - Styling of elements
 - Add titles to tables
 - Positioning
