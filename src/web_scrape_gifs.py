@@ -5,7 +5,7 @@ from os.path import basename
 import os
 
 
-chars=["A.K.I.","Blanka","Cammy","Chun-Li","Dee_Jay","Dhalsim","Ed","E.Honda","Guile","Jamie","JP","Juri","Ken","Kimberly","Lily","Luke","Manon","Marisa","Rashid","Ryu","Zangief"]
+chars=["A.K.I.","Blanka","Cammy","Chun-Li","DeeJay","Dhalsim","Ed","E.Honda","Guile","Jamie","JP","Juri","Ken","Kimberly","Lily","Luke","Manon","Marisa","Rashid","Ryu","Zangief"]
 
 for char in chars:
     char_url = re.sub("\W","",char).lower()

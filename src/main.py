@@ -1,5 +1,6 @@
 import sys
 import re
+import os
 import pandas as pd
 import numpy as np
 from PySide6 import QtCore, QtWidgets, QtGui, QtSql
@@ -14,17 +15,30 @@ class MainWindow(QtWidgets.QWidget):
         self.chars = pd.unique(self.frame_data["Character"])
 
         self.buttons = []
+
+        portraits = os.listdir("assets/char_portraits")
         
-        for char in self.chars:    
-            self.buttons.append(QtWidgets.QPushButton(char))
-        
-        self.layout = QtWidgets.QVBoxLayout(self)
-        for button in self.buttons:
-            _name = button.text().lower()
-            _name = re.sub('[\\W]+','',_name)
-            button.setObjectName(_name+"Main")
-            self.layout.addWidget(button)
+        self.layout = QtWidgets.QGridLayout(self)
+
+        for char in self.chars:   
+            button = QtWidgets.QPushButton(re.sub('_',' ',char)) 
+            self.buttons.append(button)
+            for i in range(len(portraits)):
+                if (re.sub('[\\W]+','',button.text()).lower() in re.sub('[\\W]+','',portraits[i]).lower()):
+                    button.setIcon(QtGui.QIcon("assets/char_portraits/"+portraits[i]))
+            button.setFixedSize(100,100)
+            #button.setContentsMargins(0,0,0,0)
+            #button.setIconSize(QtCore.QSize(100,100))
+            #button.setText("")
+            button.setObjectName("Main_Menu")
             button.clicked.connect(self.goToScreen)
+
+        row = -1
+        for i in range(len(self.chars)):
+            col = i % 5
+            if (col == 0): row += 1
+            self.layout.addWidget(self.buttons[i],row,col)
+
 
     def goToScreen(self):
         # print(self.sender().text())
@@ -56,6 +70,7 @@ class CharWindow(QtWidgets.QWidget):
         for i in range(1,10):
             button = QtWidgets.QPushButton(str(i))
             button.setCheckable(True)
+            button.setObjectName("Char_Button")
             self.numButtons.addButton(button,i)
         self.numButtons.setExclusive(True)
         self.numButtons.buttonClicked.connect(self.updateFrameTable)
@@ -94,6 +109,15 @@ class CharWindow(QtWidgets.QWidget):
         self.specialCheckbox = QtWidgets.QCheckBox("Include specials")
         self.layout.addWidget(self.specialCheckbox,4,7,1,1)
         self.specialCheckbox.clicked.connect(self.updateFrameTable)
+
+        # Adding move gif
+        #movie = QtGui.QMovie("assets/char_data/AKI/aki-2hk.gif")
+        self.moveImage = QtWidgets.QLabel("Test")
+        #self.moveImage.setMovie(movie)
+        #movie.start()
+        self.moveImage.setFixedSize(200,200)
+        self.moveImage.setScaledContents(True)
+        self.layout.addWidget(self.moveImage,5,0,1,1)
 
         # Creating result table
         self.resultTable = QtWidgets.QTableView(self)
@@ -161,7 +185,7 @@ class CharWindow(QtWidgets.QWidget):
             mi = self.resultTable.selectedIndexes()[0]
         except IndexError:
             return
-        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
+        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),0)
         new_data = self.char_data[(self.char_data["Startup"].str.isnumeric()) & (self.char_data["Type"] == "Normal") & ~(self.char_data["Input"].str.contains("j"))]
         adv = 0
         try:
@@ -174,6 +198,16 @@ class CharWindow(QtWidgets.QWidget):
         if (self.dr.isChecked()): adv += 4 
         new_data = new_data[(new_data["Startup"].astype(int) <= adv)]
         self.linkTable.model().setDataFrame(new_data)
+
+    def updateMoveGif(self):
+        try:
+            mi = self.resultTable.selectedIndexes()[0]
+        except IndexError:
+            return
+        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
+        move_input = self.resultTable.model().data(ind)
+        
+
 
     def returnToMain(self):
         widget.setCurrentIndex(0)
