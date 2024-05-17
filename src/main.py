@@ -53,9 +53,12 @@ class CharWindow(QtWidgets.QWidget):
     def __init__(self,charName):
         super().__init__()
 
+        self.charName = charName
+
         # Dataframe init
         self.frame_data = pd.read_csv("data/frames.csv")
         self.char_data = self.frame_data[self.frame_data["Character"]==charName]
+        self.char_data.drop(["Character"],axis=1,inplace=True)
 
         # Layout init
         self.layout = QtWidgets.QGridLayout(self)
@@ -206,7 +209,9 @@ class CharWindow(QtWidgets.QWidget):
             return
         ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
         move_input = self.resultTable.model().data(ind)
-        
+        movie = QtGui.QMovie("assets/char_data/"+self.charName.lower()+"/aki-2hk.gif")
+        #self.moveImage.setMovie(movie)
+        #movie.start()
 
 
     def returnToMain(self):

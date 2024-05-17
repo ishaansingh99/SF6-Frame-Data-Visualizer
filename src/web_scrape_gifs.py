@@ -3,9 +3,10 @@ import re
 from bs4 import BeautifulSoup 
 from os.path import basename
 import os
+import pandas as pd
 
-
-chars=["A.K.I.","Blanka","Cammy","Chun-Li","DeeJay","Dhalsim","Ed","E.Honda","Guile","Jamie","JP","Juri","Ken","Kimberly","Lily","Luke","Manon","Marisa","Rashid","Ryu","Zangief"]
+frame_data = pd.read_csv("data/frames.csv")
+chars = pd.unique(frame_data["Character"])
 
 for char in chars:
     char_url = re.sub("\W","",char).lower()
