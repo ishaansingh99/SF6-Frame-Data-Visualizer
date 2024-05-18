@@ -22,6 +22,8 @@ for char in chars:
         filename = re.sub("b\+","4",filename)
         filename = re.sub("cr-","2",filename)
         filename = re.sub("st-","5",filename)
+        filename = re.sub("-feb2024","",filename)
+        filename = re.sub("-aa","",filename)
         filepath = "assets/char_data/"+char_url+"/"+filename
         os.makedirs(os.path.dirname(filepath),exist_ok=True)
         with open(filepath,"wb") as f:

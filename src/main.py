@@ -39,7 +39,6 @@ class MainWindow(QtWidgets.QWidget):
             if (col == 0): row += 1
             self.layout.addWidget(self.buttons[i],row,col)
 
-
     def goToScreen(self):
         # print(self.sender().text())
         ind = np.where(self.chars == self.sender().text())[0][0] + 1
@@ -57,14 +56,14 @@ class CharWindow(QtWidgets.QWidget):
 
         # Dataframe init
         self.frame_data = pd.read_csv("data/frames.csv")
-        self.char_data = self.frame_data[self.frame_data["Character"]==charName]
-        self.char_data.drop(["Character"],axis=1,inplace=True)
+        self.char_data = self.frame_data[self.frame_data["Character"]==self.charName]
+        self.char_data = self.char_data.drop(["Character"],axis=1)
 
         # Layout init
         self.layout = QtWidgets.QGridLayout(self)
 
         # Char Name
-        windowTitle = QtWidgets.QLabel(charName)
+        windowTitle = QtWidgets.QLabel(re.sub("_"," ",self.charName))
         windowTitle.setMaximumSize(30,10)
         self.layout.addWidget(windowTitle,0,0)
 
@@ -114,11 +113,9 @@ class CharWindow(QtWidgets.QWidget):
         self.specialCheckbox.clicked.connect(self.updateFrameTable)
 
         # Adding move gif
-        #movie = QtGui.QMovie("assets/char_data/AKI/aki-2hk.gif")
-        self.moveImage = QtWidgets.QLabel("Test")
-        #self.moveImage.setMovie(movie)
-        #movie.start()
-        self.moveImage.setFixedSize(200,200)
+        self.moveImage = QtWidgets.QLabel("Double click on a move to display the hitbox data!")
+        self.moveImage.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.moveImage.setFixedSize(300,300)
         self.moveImage.setScaledContents(True)
         self.layout.addWidget(self.moveImage,5,0,1,1)
 
@@ -128,6 +125,7 @@ class CharWindow(QtWidgets.QWidget):
         self.resultTable.setModel(DataFrameModel(self.char_data))
         self.updateFrameTable()
         self.resultTable.doubleClicked.connect(self.updateLinkTable)
+        self.resultTable.doubleClicked.connect(self.updateMoveGif)
 
         # Creating link table
         self.linkTable = QtWidgets.QTableView(self)
@@ -188,7 +186,7 @@ class CharWindow(QtWidgets.QWidget):
             mi = self.resultTable.selectedIndexes()[0]
         except IndexError:
             return
-        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),0)
+        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
         new_data = self.char_data[(self.char_data["Startup"].str.isnumeric()) & (self.char_data["Type"] == "Normal") & ~(self.char_data["Input"].str.contains("j"))]
         adv = 0
         try:
@@ -207,12 +205,17 @@ class CharWindow(QtWidgets.QWidget):
             mi = self.resultTable.selectedIndexes()[0]
         except IndexError:
             return
-        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),3)
+        charPath = re.sub("[\W\.\_]+","",self.charName).lower()
+        ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),0)
         move_input = self.resultTable.model().data(ind)
-        movie = QtGui.QMovie("assets/char_data/"+self.charName.lower()+"/aki-2hk.gif")
-        #self.moveImage.setMovie(movie)
-        #movie.start()
-
+        move_input = re.sub("8","nj-",move_input)
+        move_input = re.sub("j.","j-",move_input)
+        move_input = re.sub("\[","",move_input)
+        move_input = re.sub("\]","-hold",move_input)
+        gifPath = "assets/char_data/"+charPath+"/"+charPath+"-"+move_input.lower()+".gif"
+        movie = QtGui.QMovie(gifPath)
+        self.moveImage.setMovie(movie)
+        movie.start()
 
     def returnToMain(self):
         widget.setCurrentIndex(0)

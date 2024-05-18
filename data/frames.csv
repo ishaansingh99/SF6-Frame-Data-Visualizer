@@ -1192,7 +1192,7 @@ j.[HK],32,6,Wall Splat +1(+33),-30(-43),-,Normal,Zangief
 3HK,16,4,KD +21,-18,-,Normal,Zangief
 22MK,9,3,+4,-3,TC,Normal,Zangief
 j.2HP,9,9,-,-,-,Normal,Zangief
-j.8HP,8,4,-,-,Sp*,Normal,Zangief
+8HP,8,4,-,-,Sp*,Normal,Zangief
 5MP~MP,9,4,+2,-6,TC,Normal,Zangief
 5MP~MP~MP,15,3,KD +27,-17,-,Normal,Zangief
 22MK~MK,9,3,-3,-4,TC,Normal,Zangief

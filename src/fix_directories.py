@@ -1,4 +1,5 @@
-import requests 
+# TO BE DELETED
+
 import re
 from os.path import basename
 import os
