@@ -15,69 +15,31 @@
       <a href="#about">About</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#to-do">To-Do</a></li>
     <li><a href="#author">Author</a></li>
+    <li><a href="#to-do">To-Do</a></li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT -->
+## About
 
-This project uses the FakeNewsNet dataset to analyze fake news articles for trends and patterns, and develops machine learning models to classify them. See the [project report](Project_Report.pdf) and [code](Project_Code.ipynb) for more.
+This project uses the Qt framework for Python to create a UI that can display frame data for [Street Fighter 6](https://www.streetfighter.com/6/en-us). See the supercombo page on frame data and other info about the game [here](https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data). 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Dependencies
-
-The dataset for this project is already downloaded and available in the repository. To run the Project_Code.ipynb notebook, Python with the usual Anaconda packages are required, along with NLTK which can be installed as follows:
-
-* Anaconda
-  ```sh
-  conda install anaconda
-  ```
-* Natural Language Toolkit
-  ```sh
-  conda install nltk
-  ```
-Also used was the python word cloud package for generating the word clouds seen in the logo above, but this is not necessary for the notebook, the cell can be skipped without any issues to the rest of the notebook:
-
-* Natural Language Toolkit
-  ```sh
-  conda install wordcloud
-  ```
-
-**Alternatively**, the project repository has a requirements.yml file to clone the conda environment used to develop the code. Clone the environment as shown in the <a href="#installation">installation below</a>:
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/uf-eel6825-sp23/final-project-code-ishaansingh99.git
-   ```
-2. Setup (and activate) your environment (or download the packages <a href="#dependencies">above</a>)
-   ```sh
-   conda env create -f requirements.yml
-   ```
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
-All the code for this project can be found in the commented [Project Code Jupyter Notebook](Project_Code.ipynb). Just follow the instructions above for installation.
+Download and extract both zip files of the release into the same folder and run [main.exe](main.exe)
 
-Run every code cell in order, but you may choose to omit the word cloud and sentiment analysis cells.
-
-A project presentation and demo can be found on [youtube here](https://youtu.be/02RJxJ7cR6c).
+**Alternatively**, the Github repo can be cloned and you can run [main.exe](main.exe)
 
 <!-- Author -->
 ## Author
 
 Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaans1999@gmail.com
 
-## Thank you
-
-### To-do/Bugs:
+## To-do:
 - Styling of elements
+- Restructure file structure
 - Add titles to tables
 - Positioning
 - Add icons to char select screen
@@ -85,4 +47,3 @@ Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaan
   - Get char data from pandas/csv
   - Figure out scraper API tokens
   - Renaming of data
-- Create release
