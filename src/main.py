@@ -7,10 +7,10 @@ import numpy as np
 from PySide6 import QtCore, QtWidgets, QtGui, QtSql
 from DataFrameModel import *
 
-FRAME_PATH = "data\\frames.csv"
-CHAR_PORTRAITS = "assets\\char_portraits"
-CHAR_DATA = "assets\\char_data"
-STYLE_PATH = "styles"
+FRAME_PATH = "data\\frame_data\\frames.csv"
+CHAR_PORTRAITS = "data\\assets\\char_portraits"
+CHAR_DATA = "data\\assets\\char_data"
+STYLE_PATH = "data\\styles"
 
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):
@@ -218,6 +218,7 @@ class CharWindow(QtWidgets.QWidget):
         move_input = re.sub("j.","j-",move_input)
         move_input = re.sub("\[","",move_input)
         move_input = re.sub("\]","-hold",move_input)
+        move_input = re.sub("\d\/","",move_input)
         gifPath = CHAR_DATA+"/"+charPath+"/"+charPath+"-"+move_input.lower()+".gif"
         movie = QtGui.QMovie(gifPath)
         self.moveImage.setMovie(movie)
