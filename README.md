@@ -76,10 +76,7 @@ Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaan
 
 ## Thank you
 
-### To-do:
-- Add gif opening
-  -  Gif assets are added but need renaming of assets and UI elements
-- Fix special input cases like neutral jump specific moves
+### To-do/Bugs:
 - Styling of elements
 - Add titles to tables
 - Positioning
@@ -87,3 +84,5 @@ Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaan
 - Make scraper robust
   - Get char data from pandas/csv
   - Figure out scraper API tokens
+  - Renaming of data
+- Create release
