@@ -1,1 +1,6 @@
 test.py
+build/*
+dist/*
+SF6-Frame-Data-Visualizer.zip
+main.spec
+build_release.bat

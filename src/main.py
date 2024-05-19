@@ -1,22 +1,28 @@
 import sys
 import re
 import os
+from os import path
 import pandas as pd
 import numpy as np
 from PySide6 import QtCore, QtWidgets, QtGui, QtSql
 from DataFrameModel import *
 
+FRAME_PATH = "data\\frames.csv"
+CHAR_PORTRAITS = "assets\\char_portraits"
+CHAR_DATA = "assets\\char_data"
+STYLE_PATH = "styles"
+
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
 
-        self.frame_data = pd.read_csv("data/frames.csv")
+        self.frame_data = pd.read_csv(FRAME_PATH)
 
         self.chars = pd.unique(self.frame_data["Character"])
 
         self.buttons = []
 
-        portraits = os.listdir("assets/char_portraits")
+        portraits = os.listdir(CHAR_PORTRAITS)
         
         self.layout = QtWidgets.QGridLayout(self)
 
@@ -25,7 +31,7 @@ class MainWindow(QtWidgets.QWidget):
             self.buttons.append(button)
             for i in range(len(portraits)):
                 if (re.sub('[\\W]+','',button.text()).lower() in re.sub('[\\W]+','',portraits[i]).lower()):
-                    button.setIcon(QtGui.QIcon("assets/char_portraits/"+portraits[i]))
+                    button.setIcon(QtGui.QIcon(CHAR_PORTRAITS+"/"+portraits[i]))
             button.setFixedSize(100,100)
             #button.setContentsMargins(0,0,0,0)
             #button.setIconSize(QtCore.QSize(100,100))
@@ -55,7 +61,7 @@ class CharWindow(QtWidgets.QWidget):
         self.charName = charName
 
         # Dataframe init
-        self.frame_data = pd.read_csv("data/frames.csv")
+        self.frame_data = pd.read_csv(FRAME_PATH)
         self.char_data = self.frame_data[self.frame_data["Character"]==self.charName]
         self.char_data = self.char_data.drop(["Character"],axis=1)
 
@@ -212,7 +218,7 @@ class CharWindow(QtWidgets.QWidget):
         move_input = re.sub("j.","j-",move_input)
         move_input = re.sub("\[","",move_input)
         move_input = re.sub("\]","-hold",move_input)
-        gifPath = "assets/char_data/"+charPath+"/"+charPath+"-"+move_input.lower()+".gif"
+        gifPath = CHAR_DATA+"/"+charPath+"/"+charPath+"-"+move_input.lower()+".gif"
         movie = QtGui.QMovie(gifPath)
         self.moveImage.setMovie(movie)
         movie.start()
@@ -230,7 +236,7 @@ if __name__ == "__main__":
     widget.resize(1366,720)
     widget.show()
 
-    with open("styles/style.qss","r") as f:
+    with open(STYLE_PATH+"/style.qss","r") as f:
         _style = f.read()
         app.setStyleSheet(_style)
 
