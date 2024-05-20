@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ishaansingh99/SF6-Frame-Data-Visualizer/">
-    <img src="assets/README/ryu-dance.gif" alt="Gif of Ryu dancing like Jamie" width="300" height="250">
+    <img src="data/assets/README/ryu-dance.gif" alt="Gif of Ryu dancing like Jamie" width="300" height="250">
   </a>
   <h3 align="center">Street Fighter 6 Frame Data Visualizer</h3>
 </p>
