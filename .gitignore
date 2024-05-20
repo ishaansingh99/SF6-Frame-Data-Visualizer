@@ -7,3 +7,5 @@ build_release.bat
 data.zip.001
 data.zip.002
 data.zip.003
+web_scrape*
+fix_directories.py

@@ -214,11 +214,12 @@ class CharWindow(QtWidgets.QWidget):
         charPath = re.sub("[\W\.\_]+","",self.charName).lower()
         ind = QtCore.QAbstractItemModel.createIndex(self.resultTable.model(),mi.row(),0)
         move_input = self.resultTable.model().data(ind)
+        move_input = re.sub("\d\/","",move_input)
         move_input = re.sub("8","nj-",move_input)
+        move_input = re.sub("9","j-",move_input)
         move_input = re.sub("j.","j-",move_input)
         move_input = re.sub("\[","",move_input)
         move_input = re.sub("\]","-hold",move_input)
-        move_input = re.sub("\d\/","",move_input)
         gifPath = CHAR_DATA+"/"+charPath+"/"+charPath+"-"+move_input.lower()+".gif"
         movie = QtGui.QMovie(gifPath)
         self.moveImage.setMovie(movie)
