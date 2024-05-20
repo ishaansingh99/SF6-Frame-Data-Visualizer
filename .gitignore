@@ -1,4 +1,4 @@
-test.py
+src/test.py
 build/*
 dist/*
 SF6-Frame-Data-Visualizer.zip
@@ -7,5 +7,6 @@ build_release.bat
 data.zip.001
 data.zip.002
 data.zip.003
-web_scrape*
 fix_directories.py
+src/web_scrape_gifs.py
+src/web_scrape_pandas.py
