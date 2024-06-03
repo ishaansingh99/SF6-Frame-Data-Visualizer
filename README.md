@@ -25,6 +25,8 @@
 
 This project uses the Qt framework for Python to create a UI that can display frame data for [Street Fighter 6](https://www.streetfighter.com/6/en-us). See the supercombo page on frame data and other info about the game [here](https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data). 
 
+All data was scraped from the [supercombo wiki](https://wiki.supercombo.gg/w/Street_Fighter_6) and [ultimate frame data](https://ultimateframedata.com/sf6/).
+
 Currently a WIP with back-end code finished. Working on styling and positioning of elements currently.
 
 <!-- USAGE -->
@@ -44,7 +46,3 @@ Ishaan Singh - [LinkedIn](https://www.linkedin.com/in/ishaan-singh-se/) - ishaan
 - Add titles to tables
 - Positioning
 - Add icons to char select screen
-- Make scraper robust
-  - Get char data from pandas/csv
-  - Figure out scraper API tokens
-  - Renaming of data
