@@ -1,27 +1,27 @@
-Input,Startup,Active,Hit Adv,Block Adv,Cancel,Type,Character
+input,Startup,Active,Hit Adv,Block Adv,Cancel,Type,Character
 5LP,5,2,+4,-1,Sp SA TC,Normal,A.K.I.
 5MP,6,5,+3,-3,Sp SA,Normal,A.K.I.
-5HP,12,3,+1,-5,TC,Normal,A.K.I.
-5LK,5,3,+4,-2,Sp SA,Normal,A.K.I.
-5MK,9,3,+6,-2,-,Normal,A.K.I.
+5HP,12,3,+1,-4,TC,Normal,A.K.I.
+5LK,4,3,+3,-3,Sp SA,Normal,A.K.I.
+5MK,8,3,+6,-2,-,Normal,A.K.I.
 5HK,9,4,+4,-3,Sp SA,Normal,A.K.I.
 2LP,4,2,+4,-1,Chn Sp SA,Normal,A.K.I.
 2MP,8,3,+1,-3,Sp SA,Normal,A.K.I.
 2HP,10,3,HKD +27,-8,-,Normal,A.K.I.
 2LK,5,3,+3,-2,Chn,Normal,A.K.I.
-2MK,7,3,+4,-3,SA,Normal,A.K.I.
-2HK,10,5,0,-3,SA,Normal,A.K.I.
+2MK,7,3,+5,+1,SA,Normal,A.K.I.
+2HK,10,6,0,-3,SA,Normal,A.K.I.
 j.LP,5,9,-,-,-,Normal,A.K.I.
 j.MP,7,4,-,-,-,Normal,A.K.I.
 j.HP,11,6,-,-,-,Normal,A.K.I.
 j.LK,5,6,-,-,-,Normal,A.K.I.
 j.MK,7,6,-,-,-,Normal,A.K.I.
-j.HK,8,5,-,-,-,Normal,A.K.I.
+j.HK,8,8,-,-,-,Normal,A.K.I.
 3MP,24,3,+3,-2,-,Normal,A.K.I.
 6HP,16,3,+3,-4,SA,Normal,A.K.I.
 6HK,14,3(5)3,+4,+2,-,Normal,A.K.I.
 j.2HP,9,5,-,-,-,Normal,A.K.I.
-5LP~LP,8,2,0,-3,Sp SA,Normal,A.K.I.
+5LP~LP,8,2,+1,-3,Sp SA,Normal,A.K.I.
 5HP~HP,14,3,KD +34[+54],-15,-,Normal,A.K.I.
 214LP,17,-,-5,-10,SA3,Special,A.K.I.
 214PP,16,-,KD +45,+1,SA2 SA3,Special,A.K.I.
@@ -30,15 +30,15 @@ j.2HP,9,5,-,-,-,Normal,A.K.I.
 214PP~6P,13,5,-4 [KD +31~44],-13(-10),SA2 SA3,Special,A.K.I.
 214PP~6P,14,12,KD +43(+52~57),-2(+4),SA2 SA3,Special,A.K.I.
 214MP,26,[160],-,-,-,Special,A.K.I.
-214HP,13,3(14)7,KD +40,-4,SA3,Special,A.K.I.
+214HP,13,3(14)9,KD +40,-4,SA3,Special,A.K.I.
 236LP,14,3,+1(+3) [KD +44(46)],-8(-6),SA3,Special,A.K.I.
 236MP,17,6,KD +44 [Crumple +69],-12,SA3,Special,A.K.I.
 236HP,11,6,KD +44 [KD +53],-20,SA3,Special,A.K.I.
 236PP,21,5,+4 [Crumple +71],-14(-11),[TB: SA2 SA3],Special,A.K.I.
-214LK,24,2(5)2(4)2(5)2,+1 (KD +38~45),-3,-,Special,A.K.I.
-214MK,28,2(5)2(4)2(5)2,+3 (KD +38~45),-3,-,Special,A.K.I.
-214HK,33,2(5)2(4)2(5)2,+4 (KD +41~50),-3,-,Special,A.K.I.
-214KK,28,3(4)2(4)2(5)2,HKD +42 (+2~3),+2,-,Special,A.K.I.
+214LK,24,2(5)2(4)2(5)2,+1 (KD +38~45),-3,SA3,Special,A.K.I.
+214MK,28,2(5)2(4)2(5)2,+3 (KD +38~45),-3,SA3,Special,A.K.I.
+214HK,33,2(5)2(4)2(5)2,+4 (KD +41~50),-3,SA3,Special,A.K.I.
+214KK,28,3(4)2(4)2(5)2,HKD +42 (+2~3),+2,SA3,Special,A.K.I.
 236LK,37 total,-,-,-,-,Special,A.K.I.
 236MK,39 total,-,-,-,-,Special,A.K.I.
 236HK,43(50~54) total,-,-,-,-,Special,A.K.I.
@@ -48,6 +48,81 @@ j.2HP,9,5,-,-,-,Normal,A.K.I.
 2PP~P,11+19,15,KD +20(34) [Crumple +67(81)],-25(-11),-,Special,A.K.I.
 2PP~K,11+11,3(9)3,+4,-3,SA3 (2nd),Special,A.K.I.
 2PP~LPLK,11+23,3,HKD +16,-,-,Special,A.K.I.
+5LP,4,3,+4,-1,,Normal,Akuma
+5MP,6,4,+4,+1,,Normal,Akuma
+5HP,9,5,+3,-3,,Normal,Akuma
+5LK,5,3,+2,-4,,Normal,Akuma
+5MK,7,5,+3,-3,,Normal,Akuma
+5HK,13,3(8)4,+7,+3,,Normal,Akuma
+2LP,4,2,+5,-1,,Normal,Akuma
+2MP,6,3,+6,-1,,Normal,Akuma
+2HP,8,8,0,-8,,Normal,Akuma
+2LK,5,2,+3,-3,,Normal,Akuma
+2MK,8,3,+1,-6,,Normal,Akuma
+2HK,9,3,KD +42,-12,,Normal,Akuma
+j.LP,4,10,~+5(+10),~+1(+6),,Normal,Akuma
+j.MP,8,4,~+5(+10),~+5(+7),,Normal,Akuma
+j.HP,9,6,~+12(+14),~+8(+11),,Normal,Akuma
+j.LK,6,10,~+5(+10),~+1(+6),,Normal,Akuma
+j.MK,7,6,~+9(+13),~+5(+9),,Normal,Akuma
+j.HK,12,6,~+11(+15),~+8(+11),,Normal,Akuma
+6MP,20,13,+3,-1,,Normal,Akuma
+6MK,10,3,+5,-4,,Normal,Akuma
+6HP,13,4,+4,-3,,Normal,Akuma
+4HK,12,5,KD +47,-15,,Normal,Akuma
+j.2MK,16,13,,,-,Normal,Akuma
+5MP~MP,7,3,-1,-6,,Normal,Akuma
+5MK~HK,20,3,+1,-3,,Normal,Akuma
+6HP~6HP,11,3,KD +39,-10,,Normal,Akuma
+6HP~6HP~HK,9,,KD +35,-13,,Normal,Akuma
+236LP,16,,0,-4,,Special,Akuma
+236MP,14,,-2,-6,,Special,Akuma
+236HP,12,,-4,-8,,Special,Akuma
+236PP,12,,KD +55,+2,,Special,Akuma
+236{LP},30-54,,KD +55,+2,,Special,Akuma
+236{MP},30-54,,KD +55,+2,,Special,Akuma
+236{HP},31-55,,KD +55,+2,,Special,Akuma
+236{PP},23-31,,KD +57,+2,,Special,Akuma
+236[LP],56,,KD +57,+5,,Special,Akuma
+236[MP],56,,KD +57,+5,,Special,Akuma
+236[HP],,,KD +57,+5,,Special,Akuma
+236[PP],31,,KD +57,+5,,Special,Akuma
+j.236P,13,,,,,Special,Akuma
+j.236PP,6,,,,,Special,Akuma
+623LP,5,10,KD +38,-22(-23),,Special,Akuma
+623MP,6,10,KD +38,-30,,Special,Akuma
+623HP,7,11,KD +30,-36,,Special,Akuma
+623PP,6,11,KD +14,-39(-41),,Special,Akuma
+214LK,12,2,KD +50,-13,,Special,Akuma
+214MK,11,,KD +41,-13,,Special,Akuma
+214HK,7,,KD +34,-59,,Special,Akuma
+214KK,13,,,,,Special,Akuma
+j.214K,11,,,,,Special,Akuma
+j.214KK,11,,,,,Special,Akuma
+214LP,15,3,+1(+2),-8,,Special,Akuma
+214MP,19,3,+2(+3),-4,,Special,Akuma
+214HP,23,3,+3,-2,,Special,Akuma
+214PP,18,3,+1,-3,,Special,Akuma
+214LP~6P,9,4,+3,-10,,Special,Akuma
+214MP~6P,,,KD +32,-18,,Special,Akuma
+214HP~6P,,,KD +47,-14,,Special,Akuma
+214PP~6P,,,KD +32,-18,,Special,Akuma
+236K,,,,,,Special,Akuma
+236KK,,,,,,Special,Akuma
+236K~No Input,,,KD +39,+2,,Special,Akuma
+236KK~No Input,,,KD +39,+2,,Special,Akuma
+236K~P,,,,+4(+7),,Special,Akuma
+236KK~P,,,,,,Special,Akuma
+236K~K,,,,,,Special,Akuma
+236KK~K,,,,,,Special,Akuma
+236K~[2],45,,-,-,-,Special,Akuma
+236KK~[2],45,,-,-,-,Special,Akuma
+236KK~j.236P,,,,,,Special,Akuma
+236KK~j.214K,,,,,,Special,Akuma
+4KKK,49-50,,-,-,,Special,Akuma
+6KKK,51-52,,-,-,,Special,Akuma
+6KKK~LPLK,31,3,HKD +20,-,-,Special,Akuma
+j.214PP,8,,,,,Special,Akuma
 5LP,5,3,+3,-3,Sp SA,Normal,Blanka
 5MP,10,3,+3,-4,SA,Normal,Blanka
 5HP,10,7,+3,-3,Sp SA,Normal,Blanka
@@ -120,7 +195,7 @@ j.[4]6PP,13,until land,KD +29(+30),+2(+8),Sp*,Special,Blanka
 5HP,8,3,+2,-3,Sp SA TC,Normal,Cammy
 5LK,5,3,+2,-3,Sp SA,Normal,Cammy
 5MK,8,3,+3,-4,-,Normal,Cammy
-5HK,11,3,+2,-4,-,Normal,Cammy
+5HK,11,3,+2,-3,-,Normal,Cammy
 2LP,4,2,+5,-2,Chn Sp SA,Normal,Cammy
 2MP,7,3,+5,-2,Sp SA,Normal,Cammy
 2HP,10,4,+7,+1,-,Normal,Cammy
@@ -137,7 +212,7 @@ j.HK,10,6,-,-,-,Normal,Cammy
 4HK,9,3,KD +54,-7,Sp SA Jmp,Normal,Cammy
 6HK,18,3,KD +26,-12,Sp SA,Normal,Cammy
 4MP~HK,9,3,KD +49,-12(-19),Sp SA Jmp,Normal,Cammy
-5HP~HK,13,4(12)3,KD +33,-12,Sp SA (1st),Normal,Cammy
+5HP~HK,13,4(12)3,KD +33,-12,Sp SA (both),Normal,Cammy
 236LK,9,13,KD +26(+48),-12(0),-,Special,Cammy
 236MK,9,15,KD +26(+48),-14(0),-,Special,Cammy
 236HK,15,3(1)12,KD +29(+48),-12(-1),SA3 (1st),Special,Cammy
@@ -189,7 +264,7 @@ j.MP,7,4(6)5,-,-,Sp SA1,Normal,Chun-Li
 j.HP,9,6,-,-,TC,Normal,Chun-Li
 j.LK,4,8,-,-,-,Normal,Chun-Li
 j.MK,6,5,-,-,-,Normal,Chun-Li
-7/9HK,8,5,-,-,-,Normal,Chun-Li
+7HK or 9HK,8,5,-,-,-,Normal,Chun-Li
 8HK,8,7,-,-,-,Normal,Chun-Li
 4/6MP,7,3,+2,-3,SS Sp SA,Normal,Chun-Li
 4HP,8,6,+5,-1,SS Sp SA,Normal,Chun-Li
@@ -290,7 +365,7 @@ j.MP~HP,8,7,-,-,-,Normal,Dee_Jay
 5HP,16,4,-6,-11,-,Normal,Dhalsim
 5LK,9,4,+2,-6,Sp SA,Normal,Dhalsim
 5MK,12,3,-2,-6,-,Normal,Dhalsim
-5HK,17,3,+1,-6,Sp SA,Normal,Dhalsim
+5HK,17,3,+3,-6,Sp SA,Normal,Dhalsim
 2LP,5,3,+4,-1,Chn Sp SA,Normal,Dhalsim
 2MP,12,3,0,-4,Sp SA,Normal,Dhalsim
 2HP,19,4,-1,-12,-,Normal,Dhalsim
@@ -316,7 +391,7 @@ j.2LK,9,until land,-23(+12),-30(+5),-,Normal,Dhalsim
 j.2MK,9,until land,-15(+10),-20(+5),-,Normal,Dhalsim
 j.2HK,9,until land,-17(+10),-22(+5),-,Normal,Dhalsim
 236P,15(11),-,-2,-6,SA3,Special,Dhalsim
-236[P],45,-,KD +49,-3,SA3,Special,Dhalsim
+236[P],43,-,KD +49,-3,SA3,Special,Dhalsim
 236PP,13,-,KD +49,-3,SA2 SA3,Special,Dhalsim
 236LK,18,[81+10],+1,-1,SA3,Special,Dhalsim
 236KK,18,[190+10],+1,-3,SA2 SA3,Special,Dhalsim
@@ -385,7 +460,7 @@ j.HK,8,2,-,-,-,Normal,Ed
 5/6KK~6P,11+11,3,KD +38,-4,SA3,Special,Ed
 5/6KK~dl.6P,13+11,3,KD +50,-6,SA3,Special,Ed
 5LP,5,3,+4,-1,Sp SA TC,Normal,E.Honda
-5MP,10,4,+4,+1,Sp SA TC,Normal,E.Honda
+5MP,10,4,+6,+1,Sp SA TC,Normal,E.Honda
 5HP,8(9),7,-1(+2),-6(-3),Sp SA,Normal,E.Honda
 5LK,4,2,+5,-1,Sp SA,Normal,E.Honda
 5MK,10,4,+4,-3,-,Normal,E.Honda
@@ -394,7 +469,7 @@ j.HK,8,2,-,-,-,Normal,Ed
 2MP,8,4,+3,-3,Sp SA,Normal,E.Honda
 2HP,11,4,+3(+5),-3(-1),Sp*,Normal,E.Honda
 2LK,5,2,+3,-3,Chn,Normal,E.Honda
-2MK,9,3,+5,-2,-,Normal,E.Honda
+2MK,9,3,+6,-2,-,Normal,E.Honda
 2HK,11,3(6)5,HKD +30(+39),-10(-1),-,Normal,E.Honda
 j.LP,5,6,-,-,-,Normal,E.Honda
 j.MP,6,8,-,-,-,Normal,E.Honda
@@ -417,10 +492,10 @@ j.2MK,11,9,-,-,-,Normal,E.Honda
 [4]6MP,10,1~24,KD +40,-4,SA3,Special,E.Honda
 [4]6HP,14,1~34,KD +40,-4,SA3,Special,E.Honda
 [4]6PP,9,"5,1~30",KD +36(+37),-20,-,Special,E.Honda
-[2]8LK,11(45),4(26)8,KD +23[+27],+1,-,Special,E.Honda
-[2]8MK,11(42),4(24)7,KD +23[+27],+1,-,Special,E.Honda
-[2]8HK,11(39),4(22)6,KD +23[+27],+1,-,Special,E.Honda
-[2]8KK,6(36),12(13)9,KD+23[+27],+1,-,Special,E.Honda
+[2]8LK,11(45),4(26)8,HKD +23[+27],+1,-,Special,E.Honda
+[2]8MK,11(42),4(24)7,HKD +23[+27],+1,-,Special,E.Honda
+[2]8HK,11(39),4(22)6,HKD +23[+27],+1,-,Special,E.Honda
+[2]8KK,6(36),12(13)9,HKD+23[+27],+1,-,Special,E.Honda
 63214LK,7,3,HKD +7,-,-,Special,E.Honda
 63214MK,7,3,HKD +7,-,-,Special,E.Honda
 63214HK,7,3,HKD +7,-,-,Special,E.Honda
@@ -428,7 +503,7 @@ j.2MK,11,9,-,-,-,Normal,E.Honda
 236K,14,-,-,-,-,Special,E.Honda
 236KK,13(11),-,-,-,-,Special,E.Honda
 236K~P,9,3(13)3,KD +42,-3,SA3,Special,E.Honda
-236KK~P,9,3(13)3,KD +45,+2,SA2 SA3,Special,E.Honda
+236KK~P,9,3(13)3,+3,+2,SA2 SA3,Special,E.Honda
 236K~P~P,14,3,KD +22,-24,-,Special,E.Honda
 236KK~P~P,14,3,KD +54,-24,-,Special,E.Honda
 236K~2P,12,2(17)3,KD +64,-22,SA3,Special,E.Honda
@@ -456,7 +531,7 @@ j.HK,10,5,-,-,-,Normal,Guile
 6HP,16,3,+5,+3,-,Normal,Guile
 4HP,9,3,+1,-4,Sp SA,Normal,Guile
 4LK,8,5,0(+4),-4(0),-,Normal,Guile
-4/6MK,11,3,+3,-6,-,Normal,Guile
+4MK or 6MK,11,3,+3,-6,-,Normal,Guile
 6HK,17,3,-1,-8,-,Normal,Guile
 3HK,10,3,0,-9,Sp SA,Normal,Guile
 5MP~4HP,16,3,KD +35,-9,Sp SA kara,Normal,Guile
@@ -484,13 +559,13 @@ PP,11,-,+2,-2,-,Special,Guile
 [4]6PP~P,11,-,KD +54~,+3,-,Special,Guile
 5LP,5,2,+5,0,Sp SA,Normal,Jamie
 5LP,5,3,+2,-3,Sp SA TC,Normal,Jamie
-5MP,8,4,+5,+1,-,Normal,Jamie
+5MP,8,4,+5,+2,-,Normal,Jamie
 5HP,5,1(1)1(4)3,+1(+3),-3(-1),Sp SA (2nd),Normal,Jamie
 5LK,5,2,+3,-1,Chn Sp SA,Normal,Jamie
-5MK,10,3,+1,-3,Sp SA,Normal,Jamie
+5MK,10,3,+2,-3,Sp SA,Normal,Jamie
 5HK,15,3,+1,-5,Sp SA,Normal,Jamie
 2LP,4,2,+5,-1,Chn Sp SA,Normal,Jamie
-2MP,6,3,+3,0,Sp SA,Normal,Jamie
+2MP,6,3,+5,-1,Sp SA,Normal,Jamie
 2HP,9,5,0,-8,Sp SA,Normal,Jamie
 2LK,5,2,+1,-3,Chn,Normal,Jamie
 2MK,7,3,-1,-6,Sp SA,Normal,Jamie
@@ -559,11 +634,11 @@ j.HK,8,3(5)4,-,-,-,Normal,Jamie
 236PP~6K~6K,18,2,KD +1 (DL3: KD +24),-49 (DL3 -26),-,Special,Jamie
 214LP,17,9,KD +39(+47),-6(+2),SA3,Special,Jamie
 214MP,20,9,KD +39(+47),-6(+2),SA3,Special,Jamie
-214HP,25,9,KD +39(+47),-5(+3),SA3,Special,Jamie
+214HP,25,9,KD +42(+50),-3(+5),SA3,Special,Jamie
 214PP,20,9,KD +73(+81) Tumble,-1(+7),SA2 SA3,Special,Jamie
 214P~6P,19,3,KD +20(+19),-23,SA3,Special,Jamie
 214PP~6P,19,3,KD +20,-23,SA2 SA3,Special,Jamie
-623LK,6,7,KD +42,-44,-,Special,Jamie
+623LK,5,7,KD +42,-44,-,Special,Jamie
 623MK,8,7,KD +34,-43,-,Special,Jamie
 623HK,10,7,KD +39,-43,-,Special,Jamie
 623KK,6,7,KD +40,-43,-,Special,Jamie
@@ -710,7 +785,7 @@ j.HP,9,6,-,-,-,Normal,Ken
 j.LK,6,6,-,-,-,Normal,Ken
 j.mK,7,6,-,-,-,Normal,Ken
 7HK or 9HK,10,7,-,-,-,Normal,Ken
-8HK,6,4,-,-,-,Normal,Ken
+8HK,6,6,-,-,-,Normal,Ken
 5MP~HP,11,3,KD +28,-14,Sp SA,Normal,Ken
 5MK~MK,11,2,KD +28,-12,TC,Normal,Ken
 5MK~MK~HK,13,3,KD +32(30),-11(-32),-,Normal,Ken
@@ -749,7 +824,7 @@ KK,11(45),-,-,-,-,Special,Ken
 KK~LK,11~,-,-,-,-,Special,Ken
 KK~MK,11+18,3,+3,-3,SA3,Special,Ken
 KK~HK,11+10,4,+3,-4,SA,Special,Ken
-KK~623P,11+9,11,KD +22,-35(-36),SA3,Special,Ken
+KK~623P,11+8,11,KD +25,-35(-36),SA3,Special,Ken
 KK~214K,11+13,"[2(2)3(2)]x4,2(5)3",+3,-9,-,Special,Ken
 KK~623K,11+9(20),4(5)6,+2(+4),-8(-6),-,Special,Ken
 5LP,5,2,+5,-2,Chn Sp SA TC,Normal,Kimberly
@@ -787,10 +862,10 @@ j.2MP,13,until land,+4(+7),-3(0),-,Normal,Kimberly
 214LK,6,6(1)6(1)6(8)3,KD +23,-30,-,Special,Kimberly
 214MK,7,6(1)6(1)6(8)3,KD +22,-32,-,Special,Kimberly
 214HK,8,6(1)6(1)6(8)3,KD +21,-35,-,Special,Kimberly
-214KK,6,6(1)6(1)6(1)6(1)2,KD +20,-40,-,Special,Kimberly
+214KK,6,6(1)6(1)6(1)6(1)2,KD +20,-40,SA2 (4th),Special,Kimberly
 j.214K,8,2(7)2(7)2,+4(+8) KD +38(42),-1(+4),-,Special,Kimberly
 j.214KK,8,2(2)3(2)2(2)3(2)2,+5(+8) KD +46(51),-1(+4),SA2,Special,Kimberly
-236LP,10,2,+3 (KD +30~36),-6,SA3,Special,Kimberly
+236LP,10,3,+3(+5) (KD +30~36),-5(-3),SA3,Special,Kimberly
 236MP,17,2,KD +37(+26),-12,SA3 (1st),Special,Kimberly
 236HP,24,2,KD +56,-12,SA3 (1st) / Jmp,Special,Kimberly
 236PP,17,2,KD +56,-12,SA2 SA3 (1st) / Jmp,Special,Kimberly
@@ -818,35 +893,35 @@ j.214KK,8,2(2)3(2)2(2)3(2)2,+5(+8) KD +46(51),-1(+4),SA2,Special,Kimberly
 22PP (2 stock),19(103),[10 each],KD +90-93,-,-,Special,Kimberly
 j.236P,5,3,HKD +22,-,-,Special,Kimberly
 j.236PP,5,3,HKD +98 OTG,-,-,Special,Kimberly
-5LP,6,3,+6,-1,Chn Sp SA,Normal,Lily
+5LP,5,3,+6,-1,Chn Sp SA,Normal,Lily
 5MP,9,4,+1,-4,-,Normal,Lily
 5HP,11,3,0,-5,Sp SA,Normal,Lily
-5LK,4,3,+1,-4,Chn Sp SA,Normal,Lily
+5LK,4,3,+5,-1,Chn Sp SA,Normal,Lily
 5MK,7,3,+2,-1,Sp SA,Normal,Lily
 5HK,14,4,+1,-5,-,Normal,Lily
 2LP,6,3,+5,-1,Chn Sp SA,Normal,Lily
 2MP,8,3,+1,-3,SA,Normal,Lily
 2HP,10,24,0,-2,Sp SA (2nd),Normal,Lily
 2LK,5,2,+2,-2,Chn,Normal,Lily
-2MK,10,3,+1,-5,Sp SA,Normal,Lily
+2MK,9,3,+1,-5,Sp SA,Normal,Lily
 2HK,11,2(6)2,HKD +32,-12,-,Normal,Lily
-j.LP,5,9,≤ +9,≤ +5,-,Normal,Lily
-j.MP,9,4,≤ +11,≤ +7,TC,Normal,Lily
-j.HP,10,6,≤ +15,≤ +11,-,Normal,Lily
-j.LK,6,6,≤ +9,≤ +5,-,Normal,Lily
-j.MK,8,5,≤ +13,≤ +9,-,Normal,Lily
-j.HK,11,6,≤ +15,≤ +9,-,Normal,Lily
+j.LP,5,9,+6(+9),+2(+5),-,Normal,Lily
+j.MP,9,4,+5(+11),+1(+7),TC,Normal,Lily
+j.HP,10,6,+6(+15),+2(+11),-,Normal,Lily
+j.LK,6,6,+4(+10),0(+6),-,Normal,Lily
+j.MK,8,5,+7(+13),+3(+9),-,Normal,Lily
+j.HK,11,6,+10(+15),+4(+9),-,Normal,Lily
 6HP,18,2,+1,-5,TC Sp SA,Normal,Lily
 4HP,14,4,+5,-2,Sp SA,Normal,Lily
 3HP,25,3,+2,-3,-,Normal,Lily
-j.2HP,9,11,≤ +15,≤ +11,-,Normal,Lily
+j.2HP,9,11,+11(+15),+7(+11),-,Normal,Lily
 6HP~HP,20,2,0,-9,TC,Normal,Lily
 6HP~HP~HP,20,5,KD +23,-26,-,Normal,Lily
 j.MP~MP,10,3,-,-,SA2,Normal,Lily
 214LP,46(71/90),-,-,-,-,Special,Lily
 214MP (HOLD OK),23(4),4,+2,-8,SA3,Special,Lily
 214HP (HOLD OK),25(4),4,KD +30,-8,SA3*,Special,Lily
-214PP (HOLD OK),21(4),4,KD +39,-5,SA2 SA3*,Special,Lily
+214PP (HOLD OK),19(4),4,KD +39,-5,SA2 SA3*,Special,Lily
 214[PP],38,-,-,-,-,Special,Lily
 236LK,17,13,KD +33(+45),-8(+4),-,Special,Lily
 236MK,21,13,KD +37(+49),-8(+4),-,Special,Lily
@@ -937,11 +1012,11 @@ j.214PP,14,6,KD ~,-33(-21),-,Special,Luke
 5LK,5,2,+2,-2,Sp SA,Normal,Manon
 5MK,10,3,-2,-5,Sp SA,Normal,Manon
 5HK,15,3,-2,-6,-,Normal,Manon
-2LP,4,2,+2,-2,Chn Sp SA,Normal,Manon
+2LP,4,2,+3,-2,Chn Sp SA,Normal,Manon
 2MP,7,3,+6,-1,Sp SA,Normal,Manon
 2HP,10,5,-2,-8,TC,Normal,Manon
 2LK,5,2,-1,-5,Chn,Normal,Manon
-2MK,8,4,+2,-2,-,Normal,Manon
+2MK,8,4,+3,-2,-,Normal,Manon
 2HK,11,2,HKD +29,-12,-,Normal,Manon
 j.LP,5,10,-,-,-,Normal,Manon
 j.MP,8,4,-,-,-,Normal,Manon
@@ -950,7 +1025,7 @@ j.LK,6,9,-,-,-,Normal,Manon
 j.MK,7,6,-,-,-,Normal,Manon
 j.HK,11,5,-,-,-,Normal,Manon
 4MK,10,4,-1,-3,TC,Normal,Manon
-4HP,8,6,+3,-3,Sp SA,Normal,Manon
+4HP,8,6,+3,+1,Sp SA,Normal,Manon
 3HK,11,9,KD +26,-23,-,Normal,Manon
 5MP~MK,10,2,+2,-5,-,Normal,Manon
 4MK~MK,14,5,-3,-11,Sp SA,Normal,Manon
@@ -963,7 +1038,7 @@ j.HK,11,5,-,-,-,Normal,Manon
 236LK,9,3(2)2,KD +31,-15,SA3*,Special,Manon
 236MK,11,3(3)3,KD +34,-14,SA3*,Special,Manon
 236HK,14,3(3)3,KD +37,-11,SA3,Special,Manon
-236KK,8,4(2)3,KD +45,-19,SA2 SA3 (2nd),Special,Manon
+236KK,8,4(2)3,KD +45,-19,SA2 SA3,Special,Manon
 214LK,16,2(10)4,KD +21,-24,-,Special,Manon
 214MK,16,4(14)6,KD +33,-13,-,Special,Manon
 214HK,20(21),3,+3,-9,-,Special,Manon
@@ -975,11 +1050,11 @@ j.HK,11,5,-,-,-,Normal,Manon
 236[P],-,-,-,-,-,Special,Manon
 236[PP],-,-,-,-,-,Special,Manon
 236P~K,(16/17/18)+11,6,KD +51(+56),-5(0),SA3,Special,Manon
-236PP~K,15+11,6,KD +58(+63),-12(-7),SA2 SA3,Special,Manon
+236PP~K,15+10,6,KD +58(+63),-12(-7),SA2 SA3,Special,Manon
 5LP,6,3,0,-2,TC,Normal,Marisa
 5MP,7,4,+2,-1,TC,Normal,Marisa
 5HP,12,2,+3,-3,TC,Normal,Marisa
-5[HP],26(5),2,+6,+3,TC,Normal,Marisa
+5[HP],26(5),2,+7,+4,TC,Normal,Marisa
 5LK,6,2,0,-2,Sp SA,Normal,Marisa
 5MK,11,4,+4,-2,-,Normal,Marisa
 5HK,15,2,+1,-3,-,Normal,Marisa
@@ -987,14 +1062,14 @@ j.HK,11,5,-,-,-,Normal,Manon
 2LP,4,2,+3,-3,Chn Sp SA,Normal,Marisa
 2MP,8,3,+3,-2,Sp SA,Normal,Marisa
 2HP,9,5,KD +35,-6,-,Normal,Marisa
-2[HP],21(4),6,KD +52,-5,-,Normal,Marisa
+2[HP],21(4),6,KD +52,-3,-,Normal,Marisa
 2LK,5,3,0,-3,Chn,Normal,Marisa
 2MK,9,3,+2,-2,-,Normal,Marisa
 2HK,11,3,HKD +29,-11,-,Normal,Marisa
-2[HK],23(4),3,HKD +32,-6,-,Normal,Marisa
+2[HK],23(4),3,HKD +35,-3,-,Normal,Marisa
 j.LP,4,7,-,-,-,Normal,Marisa
 j.MP,7,4,-,-,TC,Normal,Marisa
-j.HP,10,5,-,-,-,Normal,Marisa
+j.HP,10,7,-,-,-,Normal,Marisa
 j.[HP],28(5),6,HKD +66(+72),+9(+15),-,Normal,Marisa
 j.LK,5,10,-,-,-,Normal,Marisa
 j.MK,8,8,-,-,-,Normal,Marisa
@@ -1036,19 +1111,19 @@ j.MP~MP,10,3,-,-,-,Normal,Marisa
 623LP,25,3,KD +42(43),+2(3),-,Special,Marisa
 623MP,28,3,KD +42(43),+2(3),-,Special,Marisa
 623HP,32,3,KD +42(43),+2(3),-,Special,Marisa
-623PP,28,3,KD +70 Tumble (HKD +138 Wall Splat),+2(3),-,Special,Marisa
+623PP,28,3,KD +70 Tumble (HKD +138 Wall Splat),+4(5),-,Special,Marisa
 236LK,20,4,KD +35,-6,SA3,Special,Marisa
 236MK,24,4,KD +37,-4,SA3,Special,Marisa
 236HK,29,4,KD +37,-3,SA3,Special,Marisa
 236KK,24,4,KD +50(68) Wall Splat,-6,SA2 SA3,Special,Marisa
 214K,3(8),26(116),-,-,-,Special,Marisa
 214KK,1,28(58),-,-,-,Special,Marisa
-214K,7,4,-1,-5,-,Special,Marisa
+214K,7,4,-1,-3,-,Special,Marisa
 214KK,7,4,-1,-5,-,Special,Marisa
 214K~P,8+15(16),3,+1,-3,TC,Special,Marisa
 214K~P~P,20,3,KD +31,-21,-,Special,Marisa
 214K~K,8+16,3,HKD +22,-24,-,Special,Marisa
-214K~LPLK,8+5,3,HKD +20,-,-,Special,Marisa
+214K~LPLK,8+5,3,HKD +18,-,-,Special,Marisa
 5LP,4,2,+4,-1,Chn Sp SA,Normal,Rashid
 5MP,6,3,+5,+1,TC Sp SA,Normal,Rashid
 5HP,9,3,+1,-4,Sp SA,Normal,Rashid
@@ -1072,9 +1147,9 @@ j.HK,10,5,-,-,-,Normal,Rashid
 6HK,16,4,+2(+5),-3(0),-,Normal,Rashid
 j.2HP,10,5,-9(-1),-29(-21),Sp,Normal,Rashid
 j.8HK,8,5,-,-,-,Normal,Rashid
-6[6]~6P,20+8,10,+7,-10(-1),-,Normal,Rashid
-6[6]~6K,20+16,2(4)3,+3,-4,-,Normal,Rashid
-6[6]~6K (Air Current),20+9,3(21)2(3)3,KD +56 OTG / KD +22,-5,-,Normal,Rashid
+6[6]~6P,20+8,10,+7,-10(-1),"SA (2nd, on hit)",Normal,Rashid
+6[6]~6K,20+16,2(4)3,+3,-4,SA (2nd),Normal,Rashid
+6[6]~6K (Air Current),20+9,3(21)2(3)3,KD +56 OTG / KD +22,-5,SA (3rd),Normal,Rashid
 5MP~HK,13,4,KD +42,-20,Sp SA,Normal,Rashid
 9 (against wall),-,-,-,-,-,Special,Rashid
 6[6],20,-,-,-,-,Special,Rashid
@@ -1088,8 +1163,8 @@ j.8HK,8,5,-,-,-,Normal,Rashid
 236HP (Air Current),5,2(2)3(3)3(4)3(3) 3(2)3(2)3(2)3(3)3,KD +27,-83,-,Special,Rashid
 236PP,6,"1,2(2)3(2)4(2) 4(2)4(2)4(2)4(2)3",KD +25,-42(-48),-,Special,Rashid
 236PP (Air Current),4,"1,2(2)3(2)4(2)4(2) 4(2)4(2)4(2)4(2)4",KD +47,-72(-84),Sp* (air),Special,Rashid
-214LK,15,13,KD +30(+42),-36,-,Special,Rashid
-214LK (Air Current),14,13,KD +35(+47),-24,-,Special,Rashid
+214LK,15,13,KD +30(+42),-36,SA3 (hit),Special,Rashid
+214LK (Air Current),14,13,KD +35(+47),-24,SA3 (on hit),Special,Rashid
 214MK,21,13,KD +52(+64),-36,-,Special,Rashid
 214MK (Air Current),17,15,KD +59,-15,-,Special,Rashid
 214HK,26,13,KD +56(+68),-36,-,Special,Rashid
@@ -1114,12 +1189,12 @@ j.214HK,21(22),9,KD +20(+22)~,-43(-46),-,Special,Rashid
 j.214KK,13(14),9,KD +34(+35)~,-25(-29),-,Special,Rashid
 5LP,4,3,+4,-1,Chn Sp SA,Normal,Ryu
 5MP,6,4,+7,-1,Sp SA TC,Normal,Ryu
-5HP,10,5,+3,-2,Sp SA TC,Normal,Ryu
+5HP,10,5,+4,-2,Sp SA TC,Normal,Ryu
 5LK,5,3,+2,-4,Sp SA,Normal,Ryu
 5MK,9,3,+4,-4,-,Normal,Ryu
 5HK,12,4,+9,+1,-,Normal,Ryu
 2LP,4,2,+4,-1,Chn Sp SA,Normal,Ryu
-2MP,6,3,+5,0,Sp SA,Normal,Ryu
+2MP,6,4,+5,0,Sp SA,Normal,Ryu
 2HP,9,6,+1,-7,Sp SA,Normal,Ryu
 2LK,5,2,+3,-3,Chn,Normal,Ryu
 2MK,8,3,+1,-6,Sp SA,Normal,Ryu
@@ -1127,22 +1202,22 @@ j.214KK,13(14),9,KD +34(+35)~,-25(-29),-,Special,Rashid
 j.LP,4,10,≤ +9,≤ +5,-,Normal,Ryu
 j.MP,8,23,"≤ +11,+12 (≤ +13)","≤ +7,+8 (≤ +9)",Sp,Normal,Ryu
 j.HP,9,6,≤ +15,≤ +11,-,Normal,Ryu
-j.LK,6,10,≤ +9,≤ +5,-,Normal,Ryu
+j.LK,6,10,≤ +9,≤ +6,-,Normal,Ryu
 j.MK,7,6,≤ +13,≤ +9,-,Normal,Ryu
 j.HK,12,8,≤ +15,≤ +11,-,Normal,Ryu
-6MP,20,13,+2,-3,-,Normal,Ryu
-6HP,20,23,+6,+1,-,Normal,Ryu
+6MP,20,13,+3,-1,-,Normal,Ryu
+6HP,20,23,+6,+3,-,Normal,Ryu
 4HP,7,4,+1,-13,Sp SA,Normal,Ryu
 4HK,10(20),5(5)3,0,-4,Sp SA,Normal,Ryu
 6HK,16,4,+2,-4,Sp*,Normal,Ryu
-5MP~LK,5,3,+1,-7,TC,Normal,Ryu
+5MP~LK,5,3,+1,-4,TC,Normal,Ryu
 5MP~LK~HK,17,4,KD +36,-8,-,Normal,Ryu
 5HP~HK,9,4,KD +36,-8(-18),-,Normal,Ryu
-236LP,16,-,-1,-5,SA3,Special,Ryu
-236MP,14,-,-3,-7,SA3,Special,Ryu
-236HP,12,-,-5,-9,SA3,Special,Ryu
+236LP,16,-,+1,-5,SA3,Special,Ryu
+236MP,14,-,-1,-7,SA3,Special,Ryu
+236HP,12,-,-3,-9,SA3,Special,Ryu
 236PP,12,-,KD +54,-1,SA2 SA3,Special,Ryu
-236P,12,-,KD +52,-3,SA3,Special,Ryu
+236HP,12,-,KD +52,-3,SA3,Special,Ryu
 236PP,12,-,KD +57,+2,SA2 SA3,Special,Ryu
 623LP,5,10,KD +38,-23,SA3,Special,Ryu
 623MP,6,10,KD +34,-32,SA3,Special,Ryu
@@ -1154,15 +1229,15 @@ j.HK,12,8,≤ +15,≤ +11,-,Normal,Ryu
 214KK,13,2(4)2(4)2(3)2(4)2,KD +57,-14(-32),-,Special,Ryu
 j.214K,11,2(5)2(6)2,KD +46(+52),-6(+3),-,Special,Ryu
 j.214KK,11,2(1)3(1)3(1)3(2)2,KD +45(+51),-29(-32),-,Special,Ryu
-236LK,15,9,KD +35,-11,SA3,Special,Ryu
+236LK,14,6,KD +42,-11,SA3,Special,Ryu
 236MK,18,9,KD +40,-8,SA3,Special,Ryu
 236HK,29,9,KD +45,-5,SA3,Special,Ryu
-236KK,18,5,Wall Bounce +49(65),-18,SA2 SA3,Special,Ryu
+236KK,17,5,Wall Bounce +49(65),-18,SA2 SA3,Special,Ryu
 214LP,12,6,+2,-3,SA3,Special,Ryu
 214MP,19,6,+2,-6,SA3,Special,Ryu
 214HP,30,6,KD +61 Spin,+2,SA3,Special,Ryu
 214PP,18,6,+3,+3,SA2 SA3,Special,Ryu
-214P,21,6,KD +62 Spin,+3,SA3,Special,Ryu
+214HP,20,6,KD +62 Spin,+3,SA3,Special,Ryu
 214PP,18,6,KD +87 Crumple,+4,SA2 SA3,Special,Ryu
 22P,50,-,-,-,-,Special,Ryu
 5LP,7(4),3,+4,+2,Chn Sp SA,Normal,Zangief
@@ -1174,28 +1249,28 @@ j.214KK,11,2(1)3(1)3(1)3(2)2,KD +45(+51),-29(-32),-,Special,Ryu
 5HK,13,4,+3,+1,-,Normal,Zangief
 2LP,6(3),2,+6,+1,Chn Sp SA,Normal,Zangief
 2MP,8,3,+3,-1,Sp SA,Normal,Zangief
-2HP,12,8,KD +20,-19,-,Normal,Zangief
+2HP,11,9,KD +20,-20,-,Normal,Zangief
 2LK,4(3),3,0,-3,Chn,Normal,Zangief
-2MK,9,3,+2,-2,-,Normal,Zangief
+2MK,9,3,+3,-2,-,Normal,Zangief
 2HK,12,3,HKD +32,-13,-,Normal,Zangief
-j.LP,5,7,-,-,-,Normal,Zangief
-j.MP,8,5,-,-,-,Normal,Zangief
-j.HP,9,6,-,-,-,Normal,Zangief
-j.LK,5,10,-,-,-,Normal,Zangief
-j.MK,8,8,-,-,-,Normal,Zangief
-j.HK,10,7,-,-,-,Normal,Zangief
+j.LP,5,7,+11,+8,-,Normal,Zangief
+j.MP,8,5,+10 (+14),+7 (+11),-,Normal,Zangief
+j.HP,9,6,+15 (+21),+7 (+13),-,Normal,Zangief
+j.LK,5,10,+2 (+11),-1 (+8),-,Normal,Zangief
+j.MK,8,8,+6 (+14),+3 (+11),-,Normal,Zangief
+j.HK,10,7,+12 (+15),+8 (+11),-,Normal,Zangief
 j.[HK],32,6,Wall Splat +1(+33),-30(-43),-,Normal,Zangief
 3MP,7,3,-1,-3,Sp SA,Normal,Zangief
-6MK,14,7,0(+6),-4(+2),-,Normal,Zangief
-6HP,14,5,+6,+4,Sp SA,Normal,Zangief
-6HK,22(24),7(5),KD +28(+30),-12(-8),-,Normal,Zangief
+6MK,14,7,+1(+7),-3(+3),-,Normal,Zangief
+6HP,14,5,+7,+4,Sp SA,Normal,Zangief
+6HK,22(24),7(5),KD +28(+30),-9(-5),-,Normal,Zangief
 3HK,16,4,KD +21,-18,-,Normal,Zangief
 22MK,9,3,+4,-3,TC,Normal,Zangief
-j.2HP,9,9,-,-,-,Normal,Zangief
-8HP,8,4,-,-,Sp*,Normal,Zangief
+j.2HP,9,9,+14 (+18),+10 (+14),-,Normal,Zangief
+j.8HP,8,4,+18 (+21),+13 (+16),Sp,Normal,Zangief
 5MP~MP,9,4,+2,-6,TC,Normal,Zangief
 5MP~MP~MP,15,3,KD +27,-17,-,Normal,Zangief
-22MK~MK,9,3,-3,-4,TC,Normal,Zangief
+22MK~MK,9,3,-3,-4,TC Sp SA,Normal,Zangief
 22MK~MK~MK,10,3,-2,-10,Sp SA,Normal,Zangief
 PP,15,2(3)2(4)2(8)2(6)2,KD +27(+56),-12(-41),SA3,Special,Zangief
 PPP,12,2(2)2(3)2(6)2(4)2,KD +38(+57),-11(-30),SA2 SA3 (1st),Special,Zangief
