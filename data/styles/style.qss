@@ -1,20 +1,56 @@
-QPushButton#Main_Menu {
-    background-color: #34385a;
-}
-
-QPushButton#Char_Button {
-    background-color: #9599c0;
+QPushButton#Num_Button {
+    background-color: #353535;
     border-style: ridge;
-    border-radius: 10px;
-    border-width: 2px;
+    border-radius: 35px;
+    border-width: 1px;
     padding: 5px;
-    min-width: 50px;
-    min-height: 50px;
-    max-width: 50px;
-    max-height: 50px;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 70px;
+    max-height: 70px;
 }
 
-QPushButton#Char_Button:checked {
-    background-color: #0e0e0e;
+QPushButton#Num_Button:checked {
+    background-color: #0c0b0e;
     border-style: groove;
+}
+
+QPushButton#Attack_Button {
+    background-color: #353535;
+    border-style: ridge;
+    border-radius: 35px;
+    border-width: 1px;
+    padding: 5px;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+QPushButton#Attack_Button:checked {
+    background-color: #0c0b0e;
+    border-style: groove;
+}
+
+QPushButton#Main_Menu_Button {
+    border: 5px outset #8f8f91;
+    border-radius: 10px;
+    background-color: qradialgradient(cx:0.5, cy:0.5, radius: 1, fx:0.5, fy:0.5,
+                                      stop: 1 #ff01003d, stop: 0 #313131);
+    min-width: 150px;
+    min-height: 190px;
+    max-width: 175px;
+    max-height: 225px;
+    padding: 10px 5px -20px 5px;
+    text-align: bottom center;
+}
+
+QPushButton#Main_Menu_Button:pressed {
+    background-color: qradialgradient(cx:0, cy:0, radius: 1, fx:0.5, fy:0.5,
+                                      stop: 1 #0f1011, stop: 0 #131313);
+    border-style: inset
+}
+
+QPushButton#Main_Menu_Button:flat {
+    border: none; /* no border for a flat push button */
 }
